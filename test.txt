@@ -1,0 +1,2268 @@
+Done and done
+[   {   'adjectives': [{'adjectives': '', 'subject': 'Regions'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167387',
+        'entity': 'data',
+        'sentence': 'AWS never initiates the movement of data between Regions.',
+        'snippet': 'data between Regions',
+        'subject': 'Regions',
+        'verb': 'between'},
+    {   'adjectives': [   {   'adjectives': 'single-digit millisecond latency',
+                              'subject': 'Amazon DynamoDB'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167533',
+        'entity': 'a managed service',
+        'sentence': 'For example, a managed service such as Amazon DynamoDB '
+                    'provides a\n'
+                    'fully managed NoSQL database with single-digit '
+                    'millisecond latency at any scale.',
+        'snippet': 'a managed service as Amazon DynamoDB',
+        'subject': 'Amazon DynamoDB',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': "your database's compute and "
+                                            'storage resources often',
+                              'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167580',
+        'entity': 'scale',
+        'sentence': 'With Amazon RDS, you\n'
+                    "can scale your database's compute and storage resources, "
+                    'often with no downtime.',
+        'snippet': 'scale With Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'With'},
+    {   'adjectives': [{'adjectives': 'signiﬁcantly', 'subject': 'Regions'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167616',
+        'entity': 'taking',
+        'sentence': 'By taking advantage of Regions, placement groups, and '
+                    'edge locations you can\n'
+                    'signiﬁcantly improve performance.',
+        'snippet': 'taking of Regions',
+        'subject': 'Regions',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Kinesis'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167660',
+        'entity': 'actions',
+        'sentence': 'You\n'
+                    'can use automation to work around performance issues by '
+                    'triggering actions through\n'
+                    'Amazon Kinesis, Amazon Simple Queue Service (Amazon SQS), '
+                    'and AWS Lambda.',
+        'snippet': 'actions through Amazon Kinesis',
+        'subject': 'Amazon Kinesis',
+        'verb': 'through'},
+    {   'adjectives': [{'adjectives': 'that', 'subject': 'Amazon DynamoDB'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167743',
+        'entity': 'front',
+        'sentence': 'Accelerator (DAX) provides a read-through/write-through '
+                    'distributed caching tier in\n'
+                    'front of Amazon DynamoDB, supporting the same API, but '
+                    'providing sub-millisecond\n'
+                    'latency for entities that are in the cache.',
+        'snippet': 'front of Amazon DynamoDB',
+        'subject': 'Amazon DynamoDB',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'which your resources your overall '
+                                            'operational health',
+                              'subject': 'Performance Eﬃciency'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167864',
+        'entity': 'essential',
+        'sentence': 'The AWS service that is essential to Performance Eﬃciency '
+                    'is Amazon CloudWatch,\n'
+                    'which monitors your resources and systems, providing '
+                    'visibility into your overall\n'
+                    '\n'
+                    '31\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'performance and operational health.',
+        'snippet': 'essential to Performance Eﬃciency',
+        'subject': 'Performance Eﬃciency',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': 'higher level', 'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167969',
+        'entity': 'Managed\nservices',
+        'sentence': 'Managed\n'
+                    'services, such as Amazon RDS and Amazon DynamoDB, are '
+                    'higher level, or application level,\n'
+                    'AWS services.',
+        'snippet': 'Managed\nservices as Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Aurora'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.167996',
+        'entity': 'You',
+        'sentence': 'You can use Amazon Aurora on RDS to remove database '
+                    'licensing costs.',
+        'snippet': 'You use Amazon Aurora',
+        'subject': 'Amazon Aurora',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'your\nprivate VPC',
+                              'subject': 'AWS Lambda'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168052',
+        'entity': 'consider',
+        'sentence': 'For AWS Lambda, consider running in your\n'
+                    'private VPC to control traﬃc.',
+        'snippet': 'consider For AWS Lambda',
+        'subject': 'AWS Lambda',
+        'verb': 'For'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168093',
+        'entity': 'services',
+        'sentence': 'Implement services that manage resources, such as\n'
+                    'Amazon RDS, AWS Lambda, and Amazon ECS, to reduce '
+                    'security maintenance tasks.',
+        'snippet': 'services as Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168280',
+        'entity': 'snapshots',
+        'sentence': '• Perform data backup automatically or reproduce the data '
+                    'from sources automatically:\n'
+                    '\n'
+                    'Automate backups or the reproduction from sources using '
+                    'AWS features (for example,\n'
+                    'snapshots of Amazon RDS and Amazon EBS, versions on '
+                    'Amazon S3, etc.)',
+        'snippet': 'snapshots of Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS IAM'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168381',
+        'entity': 'authentication',
+        'sentence': 'Secure and encrypt backups or ensure the data is '
+                    'available from a secure source for\n'
+                    '\n'
+                    'reproduction: Detect access via authentication and '
+                    'authorization like AWS IAM, and detect\n'
+                    'data integrity compromise by using encryption.',
+        'snippet': 'authentication like AWS IAM',
+        'subject': 'AWS IAM',
+        'verb': 'like'},
+    {   'adjectives': [   {   'adjectives': 'signiﬁcantly also important how',
+                              'subject': 'Amazon DynamoDB'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168490',
+        'entity': 'key-value storage',
+        'sentence': 'For example, if using key-value storage such as Amazon '
+                    'DynamoDB would\n'
+                    'signiﬁcantly increase system performance, it is also '
+                    'important to evaluate how the\n'
+                    'eventually consistent nature of Amazon DynamoDB could '
+                    'aﬀect customers.',
+        'snippet': 'key-value storage as Amazon DynamoDB',
+        'subject': 'Amazon DynamoDB',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': 'higher level', 'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168521',
+        'entity': 'Managed\nservices',
+        'sentence': 'Managed\n'
+                    'services, such as Amazon RDS and Amazon DynamoDB, are '
+                    'higher level, or application level,\n'
+                    'AWS services.',
+        'snippet': 'Managed\nservices as Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': 'overall', 'subject': 'Amazon RDS'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168547',
+        'entity': 'managed services',
+        'sentence': 'This includes using application level and\n'
+                    'managed services such as Amazon RDS, Amazon DynamoDB, '
+                    'Amazon SNS, and Amazon\n'
+                    'SES to reduce overall organization cost.',
+        'snippet': 'managed services as Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'static websites',
+                              'subject': 'AWS Lambda'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168569',
+        'entity': 'serverless',
+        'sentence': 'Use serverless and containers for compute, such\n'
+                    'as AWS Lambda, Amazon S3 for static websites, and Amazon '
+                    'ECS.',
+        'snippet': 'serverless as AWS Lambda',
+        'subject': 'AWS Lambda',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Aurora'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 21:47:17.168587',
+        'entity': 'migrate',
+        'sentence': 'For example\n'
+                    'Amazon Linux for compute workloads, or migrate databases '
+                    'to Amazon Aurora.',
+        'snippet': 'migrate to Amazon Aurora',
+        'subject': 'Amazon Aurora',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon RDS'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 21:47:17.404397',
+        'entity': 'Read replicas',
+        'sentence': 'Read replicas in Amazon RDS can\n'
+                    'allow you to scale read-heavy workloads.',
+        'snippet': 'Read replicas in Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': 'which', 'subject': 'Reliability'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 21:47:17.663078',
+        'entity': 'essential',
+        'sentence': 'The AWS service that is essential to Reliability is '
+                    'Amazon CloudWatch, which\n'
+                    'monitors runtime metrics.',
+        'snippet': 'essential to Reliability',
+        'subject': 'Reliability',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Reliability'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 21:47:17.663118',
+        'entity': 'our best practices',
+        'sentence': 'Resources\n'
+                    'Refer to the following resources to learn more about our '
+                    'best practices for Reliability.\n'
+                    '\n'
+                    'Documentation\n'
+                    '\n'
+                    '•',
+        'snippet': 'our best practices for Reliability',
+        'subject': 'Reliability',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'DR'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 21:47:17.663159',
+        'entity': 'failover',
+        'sentence': '• Test disaster recovery implementation to validate the '
+                    'implementation: Regularly test\n'
+                    '\n'
+                    'failover to DR to ensure that RTO and RPO are met.',
+        'snippet': 'failover to DR',
+        'subject': 'DR',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': 'its aﬃliates', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531458',
+        'entity': 'any commitments',
+        'sentence': 'This document: (a) is for informational purposes only,\n'
+                    '(b) represents current AWS product oﬀerings and '
+                    'practices, which are subject to\n'
+                    'change without notice, and (c) does not create any '
+                    'commitments or assurances from\n'
+                    'AWS and its aﬃliates, suppliers or licensors.',
+        'snippet': 'any commitments from AWS',
+        'subject': 'AWS',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'its customers not its customers',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531514',
+        'entity': 'The responsibilities',
+        'sentence': 'The responsibilities and liabilities of AWS to its '
+                    'customers are controlled by\n'
+                    'AWS agreements, and this document is not part of, nor '
+                    'does it modify, any agreement\n'
+                    'between AWS and its customers.',
+        'snippet': 'The responsibilities of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531627',
+        'entity': 'while building systems',
+        'sentence': 'The AWS Well-Architected Framework helps you understand '
+                    'the pros and cons\n'
+                    'of decisions you make while building systems on AWS.',
+        'snippet': 'while building systems on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531683',
+        'entity': 'customers’ architectures',
+        'sentence': 'We have helped design and review\n'
+                    'thousands of customers’ architectures on AWS.',
+        'snippet': 'customers’ architectures on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'best practices when further '
+                                            'implementation details '
+                                            'architectural\n'
+                                            'patterns',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531718',
+        'entity': 'It',
+        'sentence': 'It describes\n'
+                    'AWS best practices and strategies to use when designing '
+                    'and operating a cloud\n'
+                    'workload, and provides links to further implementation '
+                    'details and architectural\n'
+                    'patterns.',
+        'snippet': 'It describes AWS',
+        'subject': 'AWS',
+        'verb': 'describes'},
+    {   'adjectives': [   {   'adjectives': 'which best practices',
+                              'subject': 'AWS Well-Architected Labs'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531753',
+        'entity': 'we',
+        'sentence': 'To help you apply best practices, we have created AWS '
+                    'Well-Architected Labs, which\n'
+                    'provides you with a repository of code and documentation '
+                    'to give you hands-on\n'
+                    'experience implementing best practices.',
+        'snippet': 'we created AWS Well-Architected Labs',
+        'subject': 'AWS Well-Architected Labs',
+        'verb': 'created'},
+    {   'adjectives': [   {   'adjectives': 'assist best practices',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531779',
+        'entity': 'Every day experts',
+        'sentence': 'Every day experts at AWS assist customers in architecting '
+                    'systems to take advantage\n'
+                    'of best practices in the cloud.',
+        'snippet': 'Every day experts at AWS',
+        'subject': 'AWS',
+        'verb': 'at'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS best practices'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531826',
+        'entity': 'aligned',
+        'sentence': 'Based on what we have learned we have created the AWS '
+                    'Well-Architected\n'
+                    'Framework, which provides a consistent set of best '
+                    'practices for customers and\n'
+                    'partners to evaluate architectures, and provides a set of '
+                    'questions you can use to\n'
+                    'evaluate how well an architecture is aligned to AWS best '
+                    'practices.',
+        'snippet': 'aligned to AWS best practices',
+        'subject': 'AWS best practices',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Technical Architect'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531860',
+        'entity': 'roles',
+        'sentence': 'Technology architecture teams are often composed of a\n'
+                    'set of roles such as Technical Architect '
+                    '(infrastructure), Solutions Architect (software),\n'
+                    'Data Architect, Networking Architect, and Security '
+                    'Architect.',
+        'snippet': 'roles as Technical Architect',
+        'subject': 'Technical Architect',
+        'verb': 'as'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531879',
+        'entity': 'these teams',
+        'sentence': 'Often these teams use\n'
+                    'TOGAF or the Zachman Framework as part of an enterprise '
+                    'architecture capability.',
+        'snippet': 'these teams use \nTOGAF',
+        'subject': '\nTOGAF',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': 'rather', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531903',
+        'entity': 'prefer',
+        'sentence': 'At AWS, we prefer to distribute capabilities into teams '
+                    'rather than having a\n'
+                    'centralized team with that capability.',
+        'snippet': 'prefer At AWS',
+        'subject': 'AWS',
+        'verb': 'At'},
+    {   'adjectives': [   {   'adjectives': 'internal engineering teams',
+                              'subject': 'Solutions Architecture'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531941',
+        'entity': 'ﬁeld roles',
+        'sentence': 'Well-Architected is the customer-\n'
+                    'facing implementation of our internal review process, '
+                    'where we have codiﬁed our\n'
+                    'principal engineering thinking across ﬁeld roles like '
+                    'Solutions Architecture and\n'
+                    'internal engineering teams.',
+        'snippet': 'ﬁeld roles like Solutions Architecture',
+        'subject': 'Solutions Architecture',
+        'verb': 'like'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531958',
+        'entity': 'implementation',
+        'sentence': 'You can ﬁnd prescriptive guidance on implementation in '
+                    'the\n'
+                    'Operational Excellence Pillar whitepaper.',
+        'snippet': 'implementation in the\n'
+                   'Operational Excellence Pillar whitepaper',
+        'subject': 'the\nOperational Excellence Pillar whitepaper',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.531983',
+        'entity': 'aggregate',
+        'sentence': 'You can use the collectd plugin, or the CloudWatch\n'
+                    'Logs agent, to aggregate information about the operating '
+                    'system into CloudWatch.',
+        'snippet': 'aggregate into CloudWatch',
+        'subject': 'CloudWatch',
+        'verb': 'into'},
+    {   'adjectives': [   {   'adjectives': 'your metrics natively',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532008',
+        'entity': 'generate',
+        'sentence': 'In AWS, you can generate dashboard views of your metrics '
+                    'collected from workloads\n'
+                    'and natively from AWS.',
+        'snippet': 'generate In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': 'third-party applications '
+                                            'aggregate and present business',
+                              'subject': 'CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532028',
+        'entity': 'You',
+        'sentence': 'You can leverage CloudWatch or third-party applications '
+                    'to\n'
+                    'aggregate and present business, workload, and operations '
+                    'level views of operations\n'
+                    'activities.',
+        'snippet': 'You leverage CloudWatch',
+        'subject': 'CloudWatch',
+        'verb': 'leverage'},
+    {   'adjectives': [   {   'adjectives': 'continuous delivery build that '
+                                            'third parties',
+                              'subject': 'AWS Developer Tools'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532062',
+        'entity': 'implement',
+        'sentence': 'With AWS Developer Tools you can implement continuous '
+                    'delivery build, test, and\n'
+                    'deployment activities that work with a variety of source '
+                    'code, build, testing, and\n'
+                    'deployment tools from AWS and third parties.',
+        'snippet': 'implement With AWS Developer Tools',
+        'subject': 'AWS Developer Tools',
+        'verb': 'With'},
+    {   'adjectives': [   {   'adjectives': 'which best practices',
+                              'subject': 'Operational Excellence'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532178',
+        'entity': 'essential',
+        'sentence': 'The AWS service that is essential to Operational '
+                    'Excellence is AWS CloudFormation,\n'
+                    'which you can use to create templates based on best '
+                    'practices.',
+        'snippet': 'essential to Operational Excellence',
+        'subject': 'Operational Excellence',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532201',
+        'entity': 'our best practices',
+        'sentence': 'Refer to the following resources to learn more about our '
+                    'best practices for\n'
+                    'Operational Excellence.',
+        'snippet': 'our best practices for \nOperational Excellence',
+        'subject': '\nOperational Excellence',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon\n\nSecurity'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532241',
+        'entity': 'DevOps',
+        'sentence': 'DevOps at Amazon\n\nSecurity',
+        'snippet': 'DevOps at Amazon\n\nSecurity',
+        'subject': 'Amazon\n\nSecurity',
+        'verb': 'at'},
+    {   'adjectives': [   {   'adjectives': 'primarily which programmatic '
+                                            'access',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532292',
+        'entity': 'supported',
+        'sentence': 'In AWS, privilege management is primarily supported by '
+                    'the AWS Identity and Access\n'
+                    'Management (IAM) service, which allows you to control '
+                    'user and programmatic access\n'
+                    '\n'
+                    '13',
+        'snippet': 'supported In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532309',
+        'entity': 'Well-Architected Framework',
+        'sentence': 'Well-Architected Framework\n'
+                    '\n'
+                    'to AWS services and resources.',
+        'snippet': 'Well-Architected Framework to AWS services',
+        'subject': 'AWS services',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': 'secure temporary', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532374',
+        'entity': 'access',
+        'sentence': 'For workloads that require systems to have access to AWS, '
+                    'IAM enables secure\n'
+                    'access through roles, instance proﬁles, identity '
+                    'federation, and temporary credentials.',
+        'snippet': 'access to AWS',
+        'subject': 'AWS',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS related resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532394',
+        'entity': 'access',
+        'sentence': 'Programmatic access\n'
+                    'includes access that is internal to your workload, and '
+                    'access to AWS related resources.',
+        'snippet': 'access to AWS related resources',
+        'subject': 'AWS related resources',
+        'verb': 'to'},
+    {   'adjectives': [   {   'adjectives': 'temporary and limited-privilege '
+                                            'credentials such',
+                              'subject': 'AWS\nservices'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532423',
+        'entity': 'calls',
+        'sentence': 'Programmatic access including API calls to AWS\n'
+                    'services should be performed using temporary and '
+                    'limited-privilege credentials such\n'
+                    'as those issued by the AWS Security Token Service.',
+        'snippet': 'calls to AWS\nservices',
+        'subject': 'AWS\nservices',
+        'verb': 'to'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Identity and access management'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532438',
+        'entity': 'help',
+        'sentence': 'AWS provides resources that can help you with Identity '
+                    'and access management.',
+        'snippet': 'help with Identity and access management',
+        'subject': 'Identity and access management',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'detective controls that alarming',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532465',
+        'entity': 'implement',
+        'sentence': 'In AWS, you can implement detective controls by '
+                    'processing logs, events, and\n'
+                    'monitoring that allows for auditing, automated analysis, '
+                    'and alarming.',
+        'snippet': 'implement In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Amazon Simple Storage Service'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532489',
+        'entity': 'you',
+        'sentence': 'Service-level logs are\n'
+                    'also available, for example, you can use Amazon Simple '
+                    'Storage Service (Amazon S3)\n'
+                    'to log access requests.',
+        'snippet': 'you use Amazon Simple Storage Service',
+        'subject': 'Amazon Simple Storage Service',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'aware new risks',
+                              'subject': 'AWS and industry best practices and '
+                                         'threat intelligence'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532509',
+        'entity': 'Staying',
+        'sentence': 'Staying up to date with AWS and industry best practices '
+                    'and threat intelligence helps you\n'
+                    'be aware of new risks.',
+        'snippet': 'Staying with AWS and industry best practices and threat '
+                   'intelligence',
+        'subject': 'AWS and industry best practices and threat intelligence',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'stateful and stateless packet '
+                                            'inspection available',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532533',
+        'entity': 'implement',
+        'sentence': 'In AWS, you can implement stateful and stateless packet '
+                    'inspection, either by using\n'
+                    'AWS-native technologies or by using partner products and '
+                    'services available through\n'
+                    'the AWS Marketplace.',
+        'snippet': 'implement In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': 'which your public private',
+                              'subject': 'Amazon Virtual Private Cloud'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532569',
+        'entity': 'You',
+        'sentence': 'You should use Amazon Virtual Private Cloud (Amazon VPC)\n'
+                    'to create a private, secured, and scalable environment in '
+                    'which you can deﬁne your\n'
+                    'topology—including gateways, routing tables, and public '
+                    'and private subnets.',
+        'snippet': 'You use Amazon Virtual Private Cloud',
+        'subject': 'Amazon Virtual Private Cloud',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '•', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532587',
+        'entity': 'facilitate',
+        'sentence': 'In AWS, the following practices facilitate protection of '
+                    'data:\n'
+                    '\n'
+                    '•',
+        'snippet': 'facilitate In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': 'eﬀective incident response •',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532601',
+        'entity': 'facilitate',
+        'sentence': 'In AWS, the following practices facilitate eﬀective '
+                    'incident response:\n'
+                    '\n'
+                    '•',
+        'snippet': 'facilitate In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS APIs'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532625',
+        'entity': 'the use',
+        'sentence': 'Events can be automatically processed and trigger tools '
+                    'that automate responses\n'
+                    '\n'
+                    'through the use of AWS APIs.',
+        'snippet': 'the use of AWS APIs',
+        'subject': 'AWS APIs',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'which securely your users',
+                              'subject': 'Security'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532653',
+        'entity': 'essential',
+        'sentence': 'The AWS service that is essential to Security is AWS '
+                    'Identity and Access\n'
+                    'Management (IAM), which allows you to securely control '
+                    'access to AWS services and\n'
+                    'resources for your users.',
+        'snippet': 'essential to Security',
+        'subject': 'Security',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532678',
+        'entity': 'access',
+        'sentence': 'The following services and features support the ﬁve areas '
+                    'in\n'
+                    'security:\n'
+                    '\n'
+                    '• Identity and Access Management: IAM enables you to '
+                    'securely control access to\n'
+                    '\n'
+                    'AWS services and resources.',
+        'snippet': 'access to AWS services',
+        'subject': 'AWS services',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': 'which', 'subject': 'AWS\nresources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532696',
+        'entity': 'a monitoring service',
+        'sentence': 'Amazon CloudWatch is a monitoring service for AWS\n'
+                    'resources which can trigger CloudWatch Events to automate '
+                    'security responses.',
+        'snippet': 'a monitoring service for AWS\nresources',
+        'subject': 'AWS\nresources',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Shield\n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532724',
+        'entity': 'integrates',
+        'sentence': 'CloudFront is a global content delivery network that '
+                    'securely delivers data,\n'
+                    'videos, applications, and APIs to your viewers which '
+                    'integrates with AWS Shield\n'
+                    'for DDoS mitigation.',
+        'snippet': 'integrates with AWS Shield\n',
+        'subject': 'AWS Shield\n',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': 'your data', 'subject': 'ELB'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532756',
+        'entity': 'Data Protection: Services',
+        'sentence': 'Data Protection: Services such as ELB, Amazon Elastic '
+                    'Block Store (Amazon EBS),\n'
+                    '\n'
+                    'Amazon S3, and Amazon Relational Database Service (Amazon '
+                    'RDS) include\n'
+                    'encryption capabilities to protect your data in transit '
+                    'and at rest.',
+        'snippet': 'Data Protection: Services as ELB',
+        'subject': 'ELB',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Lambda'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532776',
+        'entity': 'automated responses',
+        'sentence': 'Amazon\n'
+                    'CloudWatch Events allows you to create rules that trigger '
+                    'automated responses\n'
+                    'including AWS Lambda.',
+        'snippet': 'automated responses including AWS Lambda',
+        'subject': 'AWS Lambda',
+        'verb': 'including'},
+    {   'adjectives': [   {   'adjectives': '•',
+                              'subject': 'Security.\n\nDocumentation\n\n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532791',
+        'entity': 'our best practices',
+        'sentence': 'Refer to the following resources to learn more about our '
+                    'best practices for Security.\n'
+                    '\n'
+                    'Documentation\n'
+                    '\n'
+                    '•',
+        'snippet': 'our best practices for Security.\n\nDocumentation\n\n',
+        'subject': 'Security.\n\nDocumentation\n\n',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '•', 'subject': 'AWS Risk'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532807',
+        'entity': 'AWS Security Best Practices\n\n',
+        'sentence': 'AWS Security Best Practices\n'
+                    '\n'
+                    '• AWS Risk and Compliance\n'
+                    '\n'
+                    'Video\n'
+                    '\n'
+                    '•',
+        'snippet': 'AWS Security Best Practices\n\n • AWS Risk',
+        'subject': 'AWS Risk',
+        'verb': '•'},
+    {   'adjectives': [{'adjectives': 'most already', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532829',
+        'entity': 'incorporated',
+        'sentence': 'With AWS, most of these foundational requirements are '
+                    'already incorporated or\n'
+                    'may be addressed as needed.',
+        'snippet': 'incorporated With AWS',
+        'subject': 'AWS',
+        'verb': 'With'},
+    {   'adjectives': [   {   'adjectives': 'suﬃcient networking free such',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532874',
+        'entity': 'the responsibility',
+        'sentence': 'The cloud is designed to be essentially limitless, so it\n'
+                    'is the responsibility of AWS to satisfy the requirement '
+                    'for suﬃcient networking and\n'
+                    'compute capacity, while you are free to change resource '
+                    'size and allocation, such as\n'
+                    'the size of storage devices, on demand.',
+        'snippet': 'the responsibility of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS Marketplace applications'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532893',
+        'entity': 'you',
+        'sentence': 'If you are using AWS Marketplace applications, you need '
+                    'to\n'
+                    'understand the limitations of the applications.',
+        'snippet': 'you using AWS Marketplace applications',
+        'subject': 'AWS Marketplace applications',
+        'verb': 'using'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532911',
+        'entity': 'take',
+        'sentence': 'With AWS, you can take advantage of automation to react '
+                    'to monitoring data.',
+        'snippet': 'take With AWS',
+        'subject': 'AWS',
+        'verb': 'With'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'RTO'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532937',
+        'entity': 'align',
+        'sentence': 'Your deﬁnition of and execution on the objectives, '
+                    'resources, locations, and\n'
+                    'functions of this data must align with RTO and RPO '
+                    'objectives.',
+        'snippet': 'align with RTO',
+        'subject': 'RTO',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': 'which', 'subject': 'Amazon CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532955',
+        'entity': 'The AWS service',
+        'sentence': 'The AWS service that is essential to Reliability is '
+                    'Amazon CloudWatch, which\n'
+                    'monitors runtime metrics.',
+        'snippet': 'The AWS service is Amazon CloudWatch',
+        'subject': 'Amazon CloudWatch',
+        'verb': 'is'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532970',
+        'entity': 'access',
+        'sentence': 'AWS IAM enables you to securely control access to AWS '
+                    'services\n'
+                    'and resources.',
+        'snippet': 'access to AWS services',
+        'subject': 'AWS services',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.532985',
+        'entity': 'you',
+        'sentence': 'AWS Well-Architected Framework\n'
+                    '\n'
+                    'AWS Cloud where you can launch AWS resources in a virtual '
+                    'network.',
+        'snippet': 'you launch AWS resources',
+        'subject': 'AWS resources',
+        'verb': 'launch'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533002',
+        'entity': 'running',
+        'sentence': 'AWS Shield is a managed Distributed\n'
+                    'Denial of Service (DDoS) protection service that '
+                    'safeguards web applications\n'
+                    'running on AWS.',
+        'snippet': 'running on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533025',
+        'entity': 'the creation',
+        'sentence': 'Failure Management: AWS CloudFormation provides templates '
+                    'for the creation of\n'
+                    'AWS resources and provisions them in an orderly and '
+                    'predictable fashion.',
+        'snippet': 'the creation of AWS resources',
+        'subject': 'AWS resources',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533040',
+        'entity': 'implementation',
+        'sentence': 'You can ﬁnd prescriptive guidance on implementation in '
+                    'the\n'
+                    'Performance Eﬃciency Pillar whitepaper.',
+        'snippet': 'implementation in the\n'
+                   'Performance Eﬃciency Pillar whitepaper',
+        'subject': 'the\nPerformance Eﬃciency Pillar whitepaper',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': 'available', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533061',
+        'entity': 'virtualized',
+        'sentence': 'In AWS, resources are virtualized and are available in a '
+                    'number of diﬀerent types and\n'
+                    'conﬁgurations.',
+        'snippet': 'virtualized In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': 'available •', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533081',
+        'entity': 'is',
+        'sentence': 'In AWS, compute is available in three forms: instances, '
+                    'containers, and functions:\n'
+                    '\n'
+                    '•',
+        'snippet': 'is In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': 'solid-state drives', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533188',
+        'entity': 'come',
+        'sentence': 'At AWS, these\n'
+                    'virtual server instances come in diﬀerent families and '
+                    'sizes, and they oﬀer a wide\n'
+                    'variety of capabilities, including solid-state drives '
+                    '(SSDs) and graphics processing\n'
+                    'units (GPUs).',
+        'snippet': 'come At AWS',
+        'subject': 'AWS',
+        'verb': 'At'},
+    {   'adjectives': [{'adjectives': 'available', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533210',
+        'entity': 'virtualized',
+        'sentence': 'In AWS, storage is virtualized and is available in a '
+                    'number of diﬀerent types.',
+        'snippet': 'virtualized In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': 'available', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533227',
+        'entity': 'virtualized',
+        'sentence': 'In AWS, networking is virtualized and is available in a '
+                    'number of diﬀerent types and\n'
+                    'conﬁgurations.',
+        'snippet': 'virtualized In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [{'adjectives': 'close where', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533266',
+        'entity': 'choose',
+        'sentence': 'With AWS, you\n'
+                    'can choose to place resources close to where they will be '
+                    'used to reduce distance.',
+        'snippet': 'choose With AWS',
+        'subject': 'AWS',
+        'verb': 'With'},
+    {   'adjectives': [   {   'adjectives': 'which which your static content '
+                                            'closer',
+                              'subject': 'Amazon ElastiCache'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533299',
+        'entity': 'caching solutions',
+        'sentence': 'AWS also oﬀers caching solutions such as Amazon '
+                    'ElastiCache,\n'
+                    'which provides an in-memory data store or cache, and '
+                    'Amazon CloudFront, which\n'
+                    'caches copies of your static content closer to end users.',
+        'snippet': 'caching solutions as Amazon ElastiCache',
+        'subject': 'Amazon ElastiCache',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'which your resources your overall '
+                                            'operational health',
+                              'subject': 'Amazon CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533332',
+        'entity': 'The AWS service',
+        'sentence': 'The AWS service that is essential to Performance Eﬃciency '
+                    'is Amazon CloudWatch,\n'
+                    'which monitors your resources and systems, providing '
+                    'visibility into your overall\n'
+                    '\n'
+                    '31\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'performance and operational health.',
+        'snippet': 'The AWS service is Amazon CloudWatch',
+        'subject': 'Amazon CloudWatch',
+        'verb': 'is'},
+    {   'adjectives': [   {   'adjectives': 'that your use case',
+                              'subject': 'SSD\n\n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533359',
+        'entity': 'storage options',
+        'sentence': 'Amazon EBS provides a wide range of storage options (such '
+                    'as SSD\n'
+                    '\n'
+                    'and provisioned input/output operations per second '
+                    '(PIOPS)) that allow you to\n'
+                    'optimize for your use case.',
+        'snippet': 'storage options as SSD\n\n',
+        'subject': 'SSD\n\n',
+        'verb': 'as'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533376',
+        'entity': 'our best practices',
+        'sentence': 'Resources\n'
+                    '\n'
+                    'Refer to the following resources to learn more about our '
+                    'best practices for\n'
+                    'Performance Eﬃciency.',
+        'snippet': 'our best practices for \nPerformance Eﬃciency',
+        'subject': '\nPerformance Eﬃciency',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2 Instances'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533392',
+        'entity': 'Deep Dive',
+        'sentence': 'AWS re:Invent 2017: Deep Dive on Amazon EC2 Instances',
+        'snippet': 'Deep Dive on Amazon EC2 Instances',
+        'subject': 'Amazon EC2 Instances',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533408',
+        'entity': 'implementation',
+        'sentence': 'You can ﬁnd prescriptive guidance on implementation in '
+                    'the Cost\n'
+                    'Optimization Pillar whitepaper.',
+        'snippet': 'implementation in the Cost\nOptimization Pillar whitepaper',
+        'subject': 'the Cost\nOptimization Pillar whitepaper',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'your spend exactly where',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533430',
+        'entity': 'use',
+        'sentence': 'In AWS you can use Cost Explorer to track your spend, and '
+                    'gain insights into exactly\n'
+                    'where you spend.',
+        'snippet': 'use In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': 'oﬀer',
+                              'subject': 'AWS Well-Architected Framework\n'
+                                         '\n'
+                                         'Amazon EC2 capacity'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533458',
+        'entity': 'you',
+        'sentence': 'With Spot Instances, you can leverage unused\n'
+                    '\n'
+                    '35\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'Amazon EC2 capacity and oﬀer savings of up to 90% oﬀ '
+                    'On-Demand pricing.',
+        'snippet': 'you leverage AWS Well-Architected Framework\n'
+                   '\n'
+                   'Amazon EC2 capacity',
+        'subject': 'AWS Well-Architected Framework\n\nAmazon EC2 capacity',
+        'verb': 'leverage'},
+    {   'adjectives': [   {   'adjectives': 'minimize completely such '
+                                            'expensive database licensing '
+                                            'costs',
+                              'subject': 'CloudFront'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533493',
+        'entity': 'reduce',
+        'sentence': 'Appropriate service selection can also reduce usage and '
+                    'costs; such as CloudFront to\n'
+                    'minimize data transfer, or completely eliminate costs, '
+                    'such as utilizing Amazon Aurora\n'
+                    'on RDS to remove expensive database licensing costs.',
+        'snippet': 'reduce as CloudFront',
+        'subject': 'CloudFront',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': 'automatically', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533508',
+        'entity': 'provision',
+        'sentence': 'In AWS, you can automatically provision resources to '
+                    'match demand.',
+        'snippet': 'provision In AWS',
+        'subject': 'AWS',
+        'verb': 'In'},
+    {   'adjectives': [   {   'adjectives': 'signiﬁcantly essential aware new '
+                                            'managed services available',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533535',
+        'entity': 'Managed services',
+        'sentence': 'Managed services from AWS can signiﬁcantly optimize the '
+                    'workload, so it is essential\n'
+                    'to be aware of new managed services and features as they '
+                    'become available.',
+        'snippet': 'Managed services from AWS',
+        'subject': 'AWS',
+        'verb': 'from'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533554',
+        'entity': 'your own\ndatabase',
+        'sentence': 'For\n'
+                    'example, running an Amazon RDS database can be cheaper '
+                    'than running your own\n'
+                    'database on Amazon EC2.',
+        'snippet': 'your own\ndatabase on Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'relational\ndatabases',
+                              'subject': 'RDS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533571',
+        'entity': 'Amazon Aurora',
+        'sentence': 'For example, Amazon Aurora on RDS can reduce costs for '
+                    'relational\n'
+                    'databases\n'
+                    'Key AWS Services',
+        'snippet': 'Amazon Aurora on RDS',
+        'subject': 'RDS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533600',
+        'entity': 'spend',
+        'sentence': 'Cost-Eﬀective Resources: You can use Cost Explorer for '
+                    'Reserved Instance\n'
+                    '\n'
+                    'recommendations, and see patterns in how much you spend '
+                    'on AWS resources\n'
+                    'over time.',
+        'snippet': 'spend on AWS resources',
+        'subject': 'AWS resources',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'RDS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533614',
+        'entity': 'use',
+        'sentence': 'You can use Amazon Aurora on RDS to remove database '
+                    'licensing costs.',
+        'snippet': 'use on RDS',
+        'subject': 'RDS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Reserved\nInstance capacity'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533640',
+        'entity': 'committing',
+        'sentence': 'AWS Trusted Advisor inspects your AWS environment and '
+                    'ﬁnds opportunities to\n'
+                    'save you money by eliminating unused or idle resources or '
+                    'committing to Reserved\n'
+                    'Instance capacity.',
+        'snippet': 'committing to Reserved\nInstance capacity',
+        'subject': 'Reserved\nInstance capacity',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS\n\nTool'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533652',
+        'entity': 'Cost Optimization',
+        'sentence': 'Cost Optimization on AWS\n\nTool',
+        'snippet': 'Cost Optimization on AWS\n\nTool',
+        'subject': 'AWS\n\nTool',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533675',
+        'entity': 'the\nteam members',
+        'sentence': 'We recommend that the\n'
+                    'team members who build an architecture use the '
+                    'Well-Architected Framework to\n'
+                    'continually review their architecture, rather than '
+                    'holding a formal review meeting.',
+        'snippet': 'the\nteam members use the Well-Architected Framework to\n',
+        'subject': 'the Well-Architected Framework to\n',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Root Cause Analysis'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533707',
+        'entity': 'featured',
+        'sentence': 'It is premised on a set of design principles that '
+                    'inﬂuences architectural\n'
+                    'approach, and questions that ensure that people don’t '
+                    'neglect areas that often\n'
+                    'featured in Root Cause Analysis (RCA).',
+        'snippet': 'featured in Root Cause Analysis',
+        'subject': 'Root Cause Analysis',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': 'best', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533723',
+        'entity': 'a set',
+        'sentence': 'It also provides a set of AWS best\n'
+                    'practices for each pillar.',
+        'snippet': 'a set of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'multiple language',
+                              'subject': 'AWS Well-Architected Tool'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533760',
+        'entity': '\n\nDescription\nAddition',
+        'sentence': 'Major revisions:\n'
+                    '\n'
+                    'Date\n'
+                    'July 2019\n'
+                    '\n'
+                    'November 2018\n'
+                    '\n'
+                    'June 2018\n'
+                    '\n'
+                    'November 2017\n'
+                    '\n'
+                    'November 2016\n'
+                    '\n'
+                    'November 2015\n'
+                    '\n'
+                    'October 2015\n'
+                    '\n'
+                    'Description\n'
+                    'Addition of AWS Well-Architected Tool, links to AWS\n'
+                    'Well-Architected Labs, and AWS Well-Architected\n'
+                    'Partners, minor ﬁxes to enable multiple language\n'
+                    'version of framework.',
+        'snippet': '\n\nDescription\nAddition of AWS Well-Architected Tool',
+        'subject': 'AWS Well-Architected Tool',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533775',
+        'entity': 'evolution',
+        'sentence': 'Refreshed other\npillars to reﬂect evolution of AWS.',
+        'snippet': 'evolution of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'CloudWatch Logs information'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533788',
+        'entity': 'Updated',
+        'sentence': 'Updated the Appendix with current Amazon\n'
+                    'CloudWatch Logs information.',
+        'snippet': 'Updated with CloudWatch Logs information',
+        'subject': 'CloudWatch Logs information',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'its\n\nuse your AWS account',
+                              'subject': 'MFA'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533809',
+        'entity': 'the AWS root user',
+        'sentence': 'Secure the AWS root user with MFA, no access keys, and '
+                    'limit its\n'
+                    '\n'
+                    'use to help secure your AWS account.',
+        'snippet': 'the AWS root user with MFA',
+        'subject': 'MFA',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS related resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533826',
+        'entity': 'access',
+        'sentence': 'Programmatic access\n'
+                    'includes access that is internal to your workload, and '
+                    'access to AWS related resources.',
+        'snippet': 'access to AWS related resources',
+        'subject': 'AWS related resources',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Lambda functions'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533843',
+        'entity': 'diﬀerent IAM roles',
+        'sentence': 'For example, use diﬀerent IAM roles for\n'
+                    'AWS Lambda functions and EC2 instances.',
+        'snippet': 'diﬀerent IAM roles for AWS Lambda functions',
+        'subject': 'AWS Lambda functions',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'aware new risks',
+                              'subject': 'AWS and industry best practices and '
+                                         'threat intelligence'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533861',
+        'entity': 'Staying',
+        'sentence': 'Staying up to date with AWS and industry best practices '
+                    'and threat intelligence helps you\n'
+                    'be aware of new risks.',
+        'snippet': 'Staying with AWS and industry best practices and threat '
+                   'intelligence',
+        'subject': 'AWS and industry best practices and threat intelligence',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Amazon Virtual Private Cloud'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533879',
+        'entity': 'includes',
+        'sentence': 'For Amazon Virtual Private Cloud (VPC) this includes\n'
+                    'security groups, Network ACLs, and subnets.',
+        'snippet': 'includes For Amazon Virtual Private Cloud',
+        'subject': 'Amazon Virtual Private Cloud',
+        'verb': 'For'},
+    {   'adjectives': [{'adjectives': 'that', 'subject': 'Amazon S3 buckets'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533905',
+        'entity': 'use',
+        'sentence': 'Classify data with easily identiﬁable indicators; for\n'
+                    '\n'
+                    'example, use tags for Amazon S3 buckets and objects that '
+                    'classify the data in the buckets.',
+        'snippet': 'use for Amazon S3 buckets',
+        'subject': 'Amazon S3 buckets',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533932',
+        'entity': 'a key management service',
+        'sentence': 'Implement secure key management: Encryption keys must be '
+                    'stored securely, and\n'
+                    '\n'
+                    'rotated with strict access control; for example, by using '
+                    'a key management service such as\n'
+                    'AWS Key Management Service.',
+        'snippet': 'a key management service as \nAWS Key Management Service',
+        'subject': '\nAWS Key Management Service',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Certiﬁcate Manager'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533957',
+        'entity': 'a\ncertiﬁcate management service',
+        'sentence': 'Store encryption keys and\n'
+                    '\n'
+                    'certiﬁcates securely and rotate them with strict access '
+                    'control; for example, by using a\n'
+                    'certiﬁcate management service such as AWS Certiﬁcate '
+                    'Manager.\n'
+                    '\n'
+                    '•',
+        'snippet': 'a\ncertiﬁcate management service as AWS Certiﬁcate Manager',
+        'subject': 'AWS Certiﬁcate Manager',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Transport Layer Security'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.533986',
+        'entity': 'protocols',
+        'sentence': 'Verify the identity of communications by using\n'
+                    '\n'
+                    'protocols, such as Transport Layer Security (TLS) or '
+                    'IPsec, to reduce the risk of data\n'
+                    'tampering or loss.',
+        'snippet': 'protocols as Transport Layer Security',
+        'subject': 'Transport Layer Security',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534004',
+        'entity': 'provisioned',
+        'sentence': 'provisioned into AWS so that an appropriate response can '
+                    'be made to an incident.',
+        'snippet': 'provisioned into AWS',
+        'subject': 'AWS',
+        'verb': 'into'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS Marketplace applications'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534023',
+        'entity': 'you',
+        'sentence': 'If you are using AWS Marketplace applications, you need '
+                    'to\n'
+                    'understand the limitations of the applications.',
+        'snippet': 'you using AWS Marketplace applications',
+        'subject': 'AWS Marketplace applications',
+        'verb': 'using'},
+    {   'adjectives': [   {   'adjectives': 'redundant instances high '
+                                            'availability',
+                              'subject': 'AWS Marketplace appliances'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534043',
+        'entity': 'you',
+        'sentence': 'If you use AWS Marketplace appliances, deploy redundant '
+                    'instances for\n'
+                    'high availability in diﬀerent Availability Zones.',
+        'snippet': 'you use AWS Marketplace appliances',
+        'subject': 'AWS Marketplace appliances',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'VPN'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534077',
+        'entity': 'connected',
+        'sentence': 'Enforce non-overlapping private IP address ranges in '
+                    'multiple private address spaces\n'
+                    'where they are connected: The IP ranges of each of your '
+                    'VPCs must not conﬂict if they\n'
+                    'are peered or connected via VPN.',
+        'snippet': 'connected via VPN',
+        'subject': 'VPN',
+        'verb': 'via'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534157',
+        'entity': 'scale',
+        'sentence': '• Procure resources automatically when scaling a workload '
+                    'up or down: Use services that\n'
+                    '\n'
+                    'automatically scale, such as Amazon S3, Amazon '
+                    'CloudFront, Amazon Auto Scaling, and\n'
+                    'AWS Lambda.',
+        'snippet': 'scale as Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'third-party tools',
+                              'subject': 'Amazon\n\nCloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534179',
+        'entity': 'the tiers',
+        'sentence': 'Monitor the tiers of the workload with Amazon\n'
+                    '\n'
+                    'CloudWatch or third-party tools.',
+        'snippet': 'the tiers with Amazon\n\nCloudWatch',
+        'subject': 'Amazon\n\nCloudWatch',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534241',
+        'entity': 'versions',
+        'sentence': '• Perform data backup automatically or reproduce the data '
+                    'from sources automatically:\n'
+                    '\n'
+                    'Automate backups or the reproduction from sources using '
+                    'AWS features (for example,\n'
+                    'snapshots of Amazon RDS and Amazon EBS, versions on '
+                    'Amazon S3, etc.)',
+        'snippet': 'versions on Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Recovery Time Objective and '
+                                         'Recovery\n'
+                                         'Point Objective'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534267',
+        'entity': 'your backup process implementation',
+        'sentence': 'Perform periodic recovery of the data to verify backup '
+                    'integrity and processes: Validate\n'
+                    '\n'
+                    'that your backup process implementation meets Recovery '
+                    'Time Objective and Recovery\n'
+                    'Point Objective through a recovery test.',
+        'snippet': 'your backup process implementation meets Recovery Time '
+                   'Objective and Recovery\n'
+                   'Point Objective',
+        'subject': 'Recovery Time Objective and Recovery\nPoint Objective',
+        'verb': 'meets'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'RTO'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534304',
+        'entity': 'align',
+        'sentence': 'Your deﬁnition of and execution on the objectives, '
+                    'resources, locations, and functions of this\n'
+                    'data must align with RTO and RPO objectives.',
+        'snippet': 'align with RTO',
+        'subject': 'RTO',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS\nservices'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534329',
+        'entity': 'limits',
+        'sentence': 'Ensure that AMIs and the system\n'
+                    '\n'
+                    'conﬁguration state are up-to-date at the DR site or '
+                    'region, as well as the limits on AWS\n'
+                    'services.',
+        'snippet': 'limits on AWS\nservices',
+        'subject': 'AWS\nservices',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534350',
+        'entity': 'the wide\n\nrange',
+        'sentence': 'Understand the available services and resources: Learn '
+                    'about and understand the wide\n'
+                    '\n'
+                    'range of services and resources available to you on AWS.',
+        'snippet': 'the wide\n\nrange on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'external resources such relevant\n'
+                                            'documentation',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534378',
+        'entity': 'existing internal experience',
+        'sentence': 'Use existing internal experience and\n'
+                    '\n'
+                    'knowledge of AWS, or use external resources, such as '
+                    'published use cases, relevant\n'
+                    'documentation, or whitepapers to deﬁne a process to '
+                    'choose resources and services.',
+        'snippet': 'existing internal experience of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534406',
+        'entity': 'guidance',
+        'sentence': 'Use guidance from AWS or an APN Partner',
+        'snippet': 'guidance from AWS',
+        'subject': 'AWS',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'your decisions',
+                              'subject': 'Solutions\n\nArchitects'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534423',
+        'entity': 'AWS resources',
+        'sentence': ': Use AWS resources, such as Solutions\n'
+                    '\n'
+                    'Architects, or an APN Partner to guide your decisions.',
+        'snippet': 'AWS resources as Solutions\n\nArchitects',
+        'subject': 'Solutions\n\nArchitects',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534469',
+        'entity': 'performs',
+        'sentence': 'Benchmark the performance of an existing workload to\n'
+                    '\n'
+                    'understand how it performs on AWS.',
+        'snippet': 'performs on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'that excess', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534532',
+        'entity': 'your system',
+        'sentence': 'Load test your workload: Deploy the latest version of '
+                    'your system on AWS using diﬀerent\n'
+                    'resource types and sizes, and use monitoring to capture '
+                    'performance metrics that identify\n'
+                    'bottlenecks or excess capacity.',
+        'snippet': 'your system on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Amazon Elastic Container Service'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534611',
+        'entity': 'an\nelastic container system',
+        'sentence': 'For example, a memory-intensive workload, such as a '
+                    'database, could be served\n'
+                    'best by the r-family of instances, while a bursting '
+                    'workload may beneﬁt more from an\n'
+                    'elastic container system such as Amazon Elastic Container '
+                    'Service.',
+        'snippet': 'an\n'
+                   'elastic container system as Amazon Elastic Container '
+                   'Service',
+        'subject': 'Amazon Elastic Container Service',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534684',
+        'entity': 'workload',
+        'sentence': 'Understand the diﬀerent\n'
+                    '\n'
+                    'characteristics (for example, shareable, ﬁle size, cache '
+                    'size, access patterns, latency,\n'
+                    'throughput, and persistence of data) that are required to '
+                    'select the services that best ﬁt\n'
+                    'your workload, such as Amazon S3, Amazon EBS, Amazon '
+                    'Elastic File System (Amazon\n'
+                    'EFS), and Amazon EC2 instance store.',
+        'snippet': 'workload as Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534719',
+        'entity': 'storing',
+        'sentence': 'Make performance\n'
+                    'improvements, such as choosing caching services or '
+                    'instances that best match your\n'
+                    'access patterns, utilizing optimal key distributions when '
+                    'storing data in Amazon S3 or\n'
+                    'DynamoDB, striping storage volumes, or partitioning data '
+                    'based on system measurements.',
+        'snippet': 'storing in Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': 'such', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534737',
+        'entity': 'object storage',
+        'sentence': 'Increase storage eﬃciency by choosing object storage, '
+                    'such as Amazon S3, or block\n'
+                    'storage, such as Amazon Elastic Block Store.',
+        'snippet': 'object storage as Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon CloudFront'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534768',
+        'entity': 'dynamic content delivery',
+        'sentence': 'Understand the service-level features that are\n'
+                    'available to optimize network-related performance; for '
+                    'example, EC2 instance network\n'
+                    'capability, enhanced networking, Amazon EBS-optimized '
+                    'instances, Amazon S3 Transfer\n'
+                    'Acceleration, and dynamic content delivery with Amazon '
+                    'CloudFront.',
+        'snippet': 'dynamic content delivery with Amazon CloudFront',
+        'subject': 'Amazon CloudFront',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534782',
+        'entity': 'Evaluate networking features',
+        'sentence': 'Evaluate networking features in AWS that\n'
+                    '\n'
+                    'increase performance.',
+        'snippet': 'Evaluate networking features in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Route'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534813',
+        'entity': 'network-level features',
+        'sentence': 'For example, take advantage of network-level features '
+                    'that are available\n'
+                    '(including Amazon Route 53 latency-based routing, Amazon '
+                    'VPC endpoints, or AWS Direct\n'
+                    'Connect) to reduce latency, network distance, or jitter.',
+        'snippet': 'network-level features including Amazon Route',
+        'subject': 'Amazon Route',
+        'verb': 'including'},
+    {   'adjectives': [   {   'adjectives': 'when certain thresholds that '
+                                            'automatically outside',
+                              'subject': 'KPI\nvalues'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534848',
+        'entity': 'a system',
+        'sentence': 'For example, a system that can predict expected KPI\n'
+                    'values and alarm when they breach certain thresholds, or '
+                    'a tool that can automatically\n'
+                    'halt or roll back deployments if KPIs are outside of '
+                    'expected values.',
+        'snippet': 'a system expected KPI\nvalues',
+        'subject': 'KPI\nvalues',
+        'verb': 'expected'},
+    {   'adjectives': [   {   'adjectives': 'closer',
+                              'subject': 'Amazon CloudFront'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534877',
+        'entity': 'edge services',
+        'sentence': 'For example, a website that has a lot of customer\n'
+                    'interaction would beneﬁt from using edge services such as '
+                    'Amazon CloudFront to move\n'
+                    'content delivery closer to customers.',
+        'snippet': 'edge services as Amazon CloudFront',
+        'subject': 'Amazon CloudFront',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon DynamoDB'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534907',
+        'entity': 'the\neventually consistent nature',
+        'sentence': 'For example, if using key-value storage such as Amazon '
+                    'DynamoDB would\n'
+                    'signiﬁcantly increase system performance, it is also '
+                    'important to evaluate how the\n'
+                    'eventually consistent nature of Amazon DynamoDB could '
+                    'aﬀect customers.',
+        'snippet': 'the\neventually consistent nature of Amazon DynamoDB',
+        'subject': 'Amazon DynamoDB',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'third-party solutions',
+                              'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534921',
+        'entity': 'applies',
+        'sentence': 'This applies to AWS services and\nthird-party solutions.',
+        'snippet': 'applies to AWS services',
+        'subject': 'AWS services',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'IAM policies'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534949',
+        'entity': 'access',
+        'sentence': 'These ensure that costs are only incurred as deﬁned by '
+                    'organization\n'
+                    'requirements; for example, control access to regions or '
+                    'resource types with IAM policies.',
+        'snippet': 'access with IAM policies',
+        'subject': 'IAM policies',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'which back capability',
+                              'subject': 'Amazon Athena'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534972',
+        'entity': 'the AWS Cost',
+        'sentence': 'Implement a process to analyze\n'
+                    'the AWS Cost and Usage Report with Amazon Athena, which '
+                    'can provide insight and\n'
+                    'charge back capability.',
+        'snippet': 'the AWS Cost with Amazon Athena',
+        'subject': 'Amazon Athena',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.534992',
+        'entity': 'services',
+        'sentence': 'Appropriately provision\n'
+                    'throughput, sizing, and storage for services such as '
+                    'Amazon EC2, Amazon DynamoDB,\n'
+                    'Amazon EBS (',
+        'snippet': 'services as Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Cost Explorer'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.535009',
+        'entity': 'feature',
+        'sentence': 'Perform pricing model analysis: Perform an analysis on '
+                    'the workload using the Reserved\n'
+                    '\n'
+                    'Instance Recommendations feature in AWS Cost Explorer.',
+        'snippet': 'feature in AWS Cost Explorer',
+        'subject': 'AWS Cost Explorer',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'WAN optimization'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.535026',
+        'entity': 'using',
+        'sentence': 'This includes using components such\n'
+                    'as WAN optimization and Multi-AZ conﬁgurations.',
+        'snippet': 'using as WAN optimization',
+        'subject': 'WAN optimization',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'content instead',
+                              'subject': 'Amazon CloudFront'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 21:47:18.535063',
+        'entity': 'a CDN',
+        'sentence': 'Implement services to reduce data transfer costs: '
+                    'Implement services to reduce data\n'
+                    '\n'
+                    'transfer; for example, using a CDN such as Amazon '
+                    'CloudFront to deliver content to end\n'
+                    'users, caching layers using Amazon ElastiCache, or using '
+                    'AWS Direct Connect instead of\n'
+                    'VPN for connectivity to AWS.',
+        'snippet': 'a CDN as Amazon CloudFront',
+        'subject': 'Amazon CloudFront',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'premises'}],
+        'associationType': 'LOC',
+        'collectedTime': '2019-10-20 21:47:18.650639',
+        'entity': 'testing',
+        'sentence': "Because you only pay for the test environment when it's "
+                    'running, you can\n'
+                    'simulate your live environment for a fraction of the cost '
+                    'of testing on premises.',
+        'snippet': 'testing on premises',
+        'subject': 'premises',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 21:47:18.778168',
+        'entity': 'placed',
+        'sentence': 'Content placed in a\n'
+                    '\n'
+                    'Region will remain in that Region unless you explicitly '
+                    'enable a feature or leverage\n'
+                    'a service that provides that functionality.',
+        'snippet': 'placed in a\n\nRegion',
+        'subject': 'a\n\nRegion',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Direct Connect'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 21:47:18.778216',
+        'entity': 'you',
+        'sentence': 'If you are using AWS Direct Connect, you have limits on '
+                    'the amount of data you can\n'
+                    'transfer on each connection.',
+        'snippet': 'you using AWS Direct Connect',
+        'subject': 'AWS Direct Connect',
+        'verb': 'using'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Direct Connect'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 21:47:18.778235',
+        'entity': 'you',
+        'sentence': 'If you are using AWS Direct Connect, you have limits on '
+                    'the amount of data you can\n'
+                    'transfer on each connection.',
+        'snippet': 'you using AWS Direct Connect',
+        'subject': 'AWS Direct Connect',
+        'verb': 'using'},
+    {   'adjectives': [],
+        'associationType': 'WORK_OF_ART',
+        'collectedTime': '2019-10-20 21:47:18.922753',
+        'entity': 'the pillars',
+        'sentence': 'We address general design principles as well as speciﬁc '
+                    'best practices and guidance in ﬁve\n'
+                    'conceptual areas that we deﬁne as the pillars of the '
+                    'Well-Architected Framework.',
+        'snippet': 'the pillars of the Well-Architected Framework',
+        'subject': 'the Well-Architected Framework',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'WORK_OF_ART',
+        'collectedTime': '2019-10-20 21:47:18.922837',
+        'entity': 'the questions',
+        'sentence': 'If you point the team at the questions in the '
+                    'Well-Architected Framework, they\n'
+                    'will see that none of the questions reveal any commercial '
+                    'or technical propriety\n'
+                    'information.',
+        'snippet': 'the questions in the Well-Architected Framework',
+        'subject': 'the Well-Architected Framework',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 21:47:19.173173',
+        'entity': 'provide',
+        'sentence': 'For example, Amazon\n'
+                    'S3 Standard, S3 Standard–IA, S3 One Zone-IA, and Amazon '
+                    'Glacier are all designed\n'
+                    'to provide 99.999999999% durability of objects over a '
+                    'given year.',
+        'snippet': 'provide over a given year',
+        'subject': 'a given year',
+        'verb': 'over'},
+    {   'adjectives': [   {   'adjectives': 'where your alarm solution '
+                                            'correctly',
+                              'subject': 'game days'}],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 21:47:19.173285',
+        'entity': 'Plan',
+        'sentence': 'Plan for game days where you can\n'
+                    'conduct simulations in the production environment to test '
+                    'your alarm solution and\n'
+                    'ensure that it correctly recognizes issues.',
+        'snippet': 'Plan for game days',
+        'subject': 'game days',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 21:47:19.173317',
+        'entity': 'used',
+        'sentence': 'For example, development and test environments are\n'
+                    'typically only used for eight hours a day during the work '
+                    'week.',
+        'snippet': 'used during the work week',
+        'subject': 'the work week',
+        'verb': 'during'},
+    {   'adjectives': [{'adjectives': 'your team', 'subject': 'day'}],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 21:47:19.173365',
+        'entity': 'day',
+        'sentence': 'You will also want to take into account the impact\n'
+                    'of those issues on the day-to-day work of your team.',
+        'snippet': 'day to day',
+        'subject': 'day',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 21:47:19.173407',
+        'entity': 'typically 25 to 75\npercent',
+        'sentence': 'On demand is only used for short-term workloads that '
+                    'cannot\n'
+                    'be interrupted, and do not run long enough for reserved '
+                    'capacity: typically 25 to 75\n'
+                    'percent of the year, depending on the resource type.',
+        'snippet': 'typically 25 to 75\npercent of the year',
+        'subject': 'the year',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'minutes'}],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357637',
+        'entity': 'Go',
+        'sentence': 'Go global in minutes:',
+        'snippet': 'Go in minutes',
+        'subject': 'minutes',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'multiple locations closer your '
+                                            'end users',
+                              'subject': 'minutes'}],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357705',
+        'entity': 'go',
+        'sentence': 'Using AWS, you can go global in minutes and deploy '
+                    'resources in multiple locations\n'
+                    'across the globe to be closer to your end users.',
+        'snippet': 'go in minutes',
+        'subject': 'minutes',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357806',
+        'entity': 'used',
+        'sentence': 'For example, development and test environments are\n'
+                    'typically only used for eight hours a day during the work '
+                    'week.',
+        'snippet': 'used for eight hours',
+        'subject': 'eight hours',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357862',
+        'entity': '75%',
+        'sentence': 'You can stop these\n'
+                    'resources when they are not in use for a potential cost '
+                    'savings of 75% (40 hours\n'
+                    'versus 168 hours).',
+        'snippet': '75% versus 168 hours',
+        'subject': '168 hours',
+        'verb': 'versus'},
+    {   'adjectives': [   {   'adjectives': 'that twice as expensive',
+                              'subject': 'ﬁve hours'}],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357903',
+        'entity': 'a reporting process',
+        'sentence': 'For example, a reporting process might take ﬁve hours to '
+                    'run on a smaller\n'
+                    'server but one hour to run on a larger server that is '
+                    'twice as expensive.',
+        'snippet': 'a reporting process take ﬁve hours',
+        'subject': 'ﬁve hours',
+        'verb': 'take'},
+    {   'adjectives': [],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357933',
+        'entity': 'pay',
+        'sentence': 'On-Demand Instances\n'
+                    'allow you to pay for compute capacity by the hour, with '
+                    'no minimum commitments\n'
+                    'required.',
+        'snippet': 'pay by the hour',
+        'subject': 'the hour',
+        'verb': 'by'},
+    {   'adjectives': [],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 21:47:19.357949',
+        'entity': 'Cost-Eﬀective Resources',
+        'sentence': 'Cost-Eﬀective Resources\n\nCOST 4',
+        'snippet': 'Cost-Eﬀective Resources COST 4\xa0 ',
+        'subject': '4\xa0 ',
+        'verb': 'COST'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.531862',
+        'entity': 'an average annual expected loss',
+        'sentence': 'This durability\n'
+                    'level corresponds to an average annual expected loss of '
+                    '0.000000001% of objects.',
+        'snippet': 'an average annual expected loss of 0.000000001%',
+        'subject': '0.000000001%',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Lambda'}],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.531929',
+        'entity': 'use',
+        'sentence': 'Amazon CloudWatch provides metrics, alarms, and '
+                    'notiﬁcations that\n'
+                    '\n'
+                    'you can integrate with your existing monitoring solution, '
+                    'and that you can use with\n'
+                    'AWS Lambda to trigger actions.',
+        'snippet': 'use with AWS Lambda',
+        'subject': 'AWS Lambda',
+        'verb': 'with'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.531967',
+        'entity': 'a potential cost savings',
+        'sentence': 'You can stop these\n'
+                    'resources when they are not in use for a potential cost '
+                    'savings of 75% (40 hours\n'
+                    'versus 168 hours).',
+        'snippet': 'a potential cost savings of 75%',
+        'subject': '75%',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.532000',
+        'entity': 'oﬀer',
+        'sentence': 'Reserved Instances allow you to reserve capacity and oﬀer '
+                    'savings of up\n'
+                    'to 75% oﬀ On-Demand pricing.',
+        'snippet': 'oﬀer to 75%',
+        'subject': '75%',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.532029',
+        'entity': 'savings',
+        'sentence': 'With Spot Instances, you can leverage unused\n'
+                    '\n'
+                    '35\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'Amazon EC2 capacity and oﬀer savings of up to 90% oﬀ '
+                    'On-Demand pricing.',
+        'snippet': 'savings of up to 90%',
+        'subject': 'up to 90%',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.532053',
+        'entity': 'have',
+        'sentence': ': Permanently running\n'
+                    '\n'
+                    'resources have high coverage with reserved capacity, with '
+                    'at least 80 percent of\n'
+                    'recommendations implemented.',
+        'snippet': 'have with at least 80 percent',
+        'subject': 'at least 80 percent',
+        'verb': 'with'},
+    {   'adjectives': [],
+        'associationType': 'PERCENT',
+        'collectedTime': '2019-10-20 21:47:19.532093',
+        'entity': 'a value',
+        'sentence': 'The review eﬀort should reﬂect potential beneﬁt; for\n'
+                    'example, core workloads or workloads with a value of over '
+                    '10% of the bill are reviewed\n'
+                    'quarterly, while workloads below 10% are reviewed '
+                    'annually.',
+        'snippet': 'a value of over 10%',
+        'subject': 'over 10%',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'ORDINAL',
+        'collectedTime': '2019-10-20 21:47:19.785428',
+        'entity': 'you',
+        'sentence': 'If you are using third-party web services or\n'
+                    'software as a service, you also need to be aware of the '
+                    'limits of those services.',
+        'snippet': 'you using third-party web services',
+        'subject': 'third-party web services',
+        'verb': 'using'},
+    {   'adjectives': [   {   'adjectives': 'that your use case',
+                              'subject': 'second'}],
+        'associationType': 'ORDINAL',
+        'collectedTime': '2019-10-20 21:47:19.785486',
+        'entity': 'provisioned input/output operations',
+        'sentence': 'Amazon EBS provides a wide range of storage options (such '
+                    'as SSD\n'
+                    '\n'
+                    'and provisioned input/output operations per second '
+                    '(PIOPS)) that allow you to\n'
+                    'optimize for your use case.',
+        'snippet': 'provisioned input/output operations per second',
+        'subject': 'second',
+        'verb': 'per'},
+    {   'adjectives': [],
+        'associationType': 'ORDINAL',
+        'collectedTime': '2019-10-20 21:47:19.785510',
+        'entity': 'you',
+        'sentence': 'If you are using third-party web services or\n'
+                    'software as a service, you also need to be aware of the '
+                    'limits of those services.',
+        'snippet': 'you using third-party web services',
+        'subject': 'third-party web services',
+        'verb': 'using'},
+    {   'adjectives': [],
+        'associationType': 'ORDINAL',
+        'collectedTime': '2019-10-20 21:47:19.785535',
+        'entity': 'You',
+        'sentence': 'You can also use third-party tools and AWS SDKs to '
+                    'automate scaling.',
+        'snippet': 'You use third-party tools',
+        'subject': 'third-party tools',
+        'verb': 'use'},
+    {   'adjectives': [],
+        'associationType': 'ORDINAL',
+        'collectedTime': '2019-10-20 21:47:19.785564',
+        'entity': 'transactions',
+        'sentence': 'For example,\n'
+                    'measure transactions per second, slow queries, or system '
+                    'latency introduced when\n'
+                    'accessing the database.',
+        'snippet': 'transactions per second, slow queries',
+        'subject': 'second, slow queries',
+        'verb': 'per'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018544',
+        'entity': 'mitigate',
+        'sentence': 'We mitigate these risks in two ways.',
+        'snippet': 'mitigate in two ways',
+        'subject': 'two ways',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018621',
+        'entity': 'that',
+        'sentence': 'Operational readiness is validated\n'
+                    'through checklists to ensure a workload meets deﬁned '
+                    'standards and that required\n'
+                    '\n'
+                    '7\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'procedures are adequately captured in runbooks and '
+                    'playbooks.',
+        'snippet': 'that required 7',
+        'subject': '7',
+        'verb': 'required'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'SSL termination'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018662',
+        'entity': 'known',
+        'sentence': 'You can also arrange for the entire\n'
+                    'HTTPS encryption and decryption process (generally known '
+                    'as SSL termination) to be\n'
+                    'handled by Elastic Load Balancing (ELB).',
+        'snippet': 'known as SSL termination',
+        'subject': 'SSL termination',
+        'verb': 'as'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018757',
+        'entity': 'exist',
+        'sentence': 'Applications can exist in one or more environments: your '
+                    'existing data center infrastructure,\n'
+                    'publicly accessible public cloud infrastructure, or '
+                    'private addressed public cloud\n'
+                    'infrastructure.',
+        'snippet': 'exist in one or more environments',
+        'subject': 'one or more environments',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018835',
+        'entity': 'is',
+        'sentence': 'In AWS, compute is available in three forms: instances, '
+                    'containers, and functions:\n'
+                    '\n'
+                    '•',
+        'snippet': 'is in three forms',
+        'subject': 'three forms',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018859',
+        'entity': 'designed',
+        'sentence': 'For example, Amazon S3 is designed for 11 nines of '
+                    'durability.',
+        'snippet': 'designed for 11 nines',
+        'subject': '11 nines',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018891',
+        'entity': 'move',
+        'sentence': 'You can also change\n'
+                    'from using magnetic hard disk drives (HDDs) to SSDs, and '
+                    'easily move virtual drives\n'
+                    'from one instance to another in seconds.',
+        'snippet': 'move from one instance',
+        'subject': 'one instance',
+        'verb': 'from'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018948',
+        'entity': 'providing',
+        'sentence': 'The AWS service that is essential to Performance Eﬃciency '
+                    'is Amazon CloudWatch,\n'
+                    'which monitors your resources and systems, providing '
+                    'visibility into your overall\n'
+                    '\n'
+                    '31\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'performance and operational health.',
+        'snippet': 'providing into 31',
+        'subject': '31',
+        'verb': 'into'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.018983',
+        'entity': 'you',
+        'sentence': 'With Spot Instances, you can leverage unused\n'
+                    '\n'
+                    '35\n'
+                    '\n'
+                    '\x0c'
+                    'AWS Well-Architected Framework\n'
+                    '\n'
+                    'Amazon EC2 capacity and oﬀer savings of up to 90% oﬀ '
+                    'On-Demand pricing.',
+        'snippet': 'you leverage 35',
+        'subject': '35',
+        'verb': 'leverage'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019017',
+        'entity': 'follow',
+        'sentence': 'You can then follow up with one or two\n'
+                    'meetings where you can gain clarity or dive deep on areas '
+                    'of ambiguity or perceived\n'
+                    'risk.',
+        'snippet': 'follow with one or two\nmeetings',
+        'subject': 'one or two\nmeetings',
+        'verb': 'with'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019050',
+        'entity': 'you',
+        'sentence': 'While the value of a review is clear after you have done '
+                    'one, you may ﬁnd that a\n'
+                    'new team might be resistant at ﬁrst.',
+        'snippet': 'you done one',
+        'subject': 'one',
+        'verb': 'done'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019075',
+        'entity': 'focus',
+        'sentence': 'Review and rewrite of most questions and answers,\n'
+                    'to ensure questions focus on one topic at a time.',
+        'snippet': 'focus on one topic',
+        'subject': 'one topic',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'thousands'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019110',
+        'entity': 'carrying',
+        'sentence': 'Updated the Framework to include operational\n'
+                    'excellence pillar, and revised and updated the other\n'
+                    'pillars to reduce duplication and incorporate learnings\n'
+                    'from carrying out reviews with thousands of customers.',
+        'snippet': 'carrying with thousands',
+        'subject': 'thousands',
+        'verb': 'with'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019128',
+        'entity': 'exist',
+        'sentence': 'Applications can exist in one or more environments: your '
+                    'existing data center infrastructure,\n'
+                    'publicly accessible public cloud infrastructure, or '
+                    'private addressed public cloud\n'
+                    'infrastructure.',
+        'snippet': 'exist in one or more environments',
+        'subject': 'one or more environments',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019148',
+        'entity': 'multiple DX\nlocations',
+        'sentence': 'If you use multiple AWS Regions, you will also need '
+                    'multiple DX\n'
+                    'locations in at least 2 regions.',
+        'snippet': 'multiple DX\nlocations in at least 2 regions',
+        'subject': 'at least 2 regions',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019162',
+        'entity': 'Well-Architected Framework',
+        'sentence': 'Well-Architected Framework\n\nCOST 5',
+        'snippet': 'Well-Architected Framework COST 5',
+        'subject': '5',
+        'verb': 'COST'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 21:47:20.019172',
+        'entity': 'Well-Architected Framework',
+        'sentence': 'Well-Architected Framework\n\nCOST 7',
+        'snippet': 'Well-Architected Framework COST 7',
+        'subject': '7',
+        'verb': 'COST'}]

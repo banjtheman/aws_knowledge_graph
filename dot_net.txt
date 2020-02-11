@@ -1,0 +1,2883 @@
+Done and done
+[   {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973592',
+        'entity': 'running',
+        'sentence': 'Although it predominately runs on end-\n'
+                    'user devices, you can run Xamarin applications on AWS '
+                    'using Windows running on \n'
+                    'Amazon EC2, or within Amazon Elastic Container Service '
+                    '(Amazon ECS) or Amazon \n'
+                    'Elastic Kubernetes Service (',
+        'snippet': 'running on Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Mono'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973631',
+        'entity': 'It',
+        'sentence': 'It uses Mono as a scripting engine, and supports \n.NET',
+        'snippet': 'It uses Mono',
+        'subject': 'Mono',
+        'verb': 'uses'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Fargate'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973663',
+        'entity': 'running',
+        'sentence': 'Core applications on AWS as direct \n'
+                    'deployments on Windows or Linux EC2 instances, on Windows '
+                    'or Linux containers \n'
+                    'running on EC2 instances, serverless Linux containers '
+                    'running on AWS Fargate, or \n'
+                    'serverless AWS Lambda functions.',
+        'snippet': 'running on AWS Fargate',
+        'subject': 'AWS Fargate',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'DevOps practices', 'subject': 'Code'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973702',
+        'entity': 'using',
+        'sentence': 'In contrast, modern .NET applications can be designed to '
+                    'take advantage of all the \n'
+                    'cloud benefits by using Infrastructure as Code (IaC) and '
+                    'DevOps practices.',
+        'snippet': 'using as Code',
+        'subject': 'Code',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Fargate'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973740',
+        'entity': 'various types',
+        'sentence': 'Not only \n'
+                    'can modern applications use the traditional set of '
+                    'compute choices, but they can also \n'
+                    'target various types of serverless environment, including '
+                    'AWS Fargate or AWS \n'
+                    'Lambda.',
+        'snippet': 'various types including AWS Fargate',
+        'subject': 'AWS Fargate',
+        'verb': 'including'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Dev'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973809',
+        'entity': 'your \napplication',
+        'sentence': 'To get started with AWS Elastic Beanstalk you create '
+                    'Environments for your \n'
+                    'application, such as Dev, Test, or Production.',
+        'snippet': 'your \napplication as Dev',
+        'subject': 'Dev',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'key-value and document storage',
+                              'subject': 'Amazon DynamoDB'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973879',
+        'entity': 'specialized databases',
+        'sentence': 'AWS  includes a number of purpose-built relational '
+                    'database services, such as Amazon \n'
+                    'Relational Database Service (Amazon RDS), Amazon Aurora, '
+                    'and Amazon Redshift, \n'
+                    'the fastest growing cloud data warehouse service, \n'
+                    '\n'
+                    'There are also a number of specialized databases, '
+                    'including Amazon DynamoDB for \n'
+                    'key-value and document storage, Amazon Neptune for graph '
+                    'data, Amazon Quantum \n'
+                    'Ledger Database, and Amazon Managed Blockchain.',
+        'snippet': 'specialized databases including Amazon DynamoDB',
+        'subject': 'Amazon DynamoDB',
+        'verb': 'including'},
+    {   'adjectives': [   {   'adjectives': 'key phrases',
+                              'subject': 'Amazon Comprehend'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973923',
+        'entity': 'you',
+        'sentence': 'Amazon Textract extracts text from scanned documents, '
+                    'after which \n'
+                    'you can use Amazon Comprehend to find insights or '
+                    'relationships in text, helping you to \n'
+                    'extract key phrases, classify text, or analyze sentiment.',
+        'snippet': 'you use Amazon Comprehend',
+        'subject': 'Amazon Comprehend',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows \n'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973953',
+        'entity': 'the AWS Tools',
+        'sentence': 'Alternatively, you can install all of the packages using '
+                    'a single MSI installer, which also \n'
+                    'includes the AWS Toolkit for Visual Studio, and the AWS '
+                    'Tools for Windows \n'
+                    'PowerShell.',
+        'snippet': 'the AWS Tools for Windows \n',
+        'subject': 'Windows \n',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'later',
+                              'subject': 'Visual Studio versions'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973970',
+        'entity': 'The toolkit',
+        'sentence': 'The toolkit supports Visual Studio versions 2008 and '
+                    'later for Windows.',
+        'snippet': 'The toolkit supports Visual Studio versions',
+        'subject': 'Visual Studio versions',
+        'verb': 'supports'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Bitbucket'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.973996',
+        'entity': 'integrates',
+        'sentence': 'As an alternative to AWS CodeCommit, both AWS CodeBuild '
+                    'and AWS CodePipeline \n'
+                    'integrate with GitHub, and AWS CodeBuild also integrates '
+                    'with Bitbucket.',
+        'snippet': 'integrates with Bitbucket',
+        'subject': 'Bitbucket',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Tools'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974016',
+        'entity': 'Various tasks',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Figure 4: Various tasks for AWS Tools for Visual Studio '
+                    'Team Services',
+        'snippet': 'Various tasks for AWS Tools',
+        'subject': 'AWS Tools',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Cognito'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974033',
+        'entity': 'Getting Started',
+        'sentence': 'For more information, see Getting Started with Amazon '
+                    'Cognito.',
+        'snippet': 'Getting Started with Amazon Cognito',
+        'subject': 'Amazon Cognito',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon Cognito'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974053',
+        'entity': 'Authenticating Users',
+        'sentence': 'To learn how you can \n'
+                    'authenticate .NET application using Amazon Cognito, see '
+                    'Authenticating Users with \n'
+                    'Amazon Cognito.',
+        'snippet': 'Authenticating Users with Amazon Cognito',
+        'subject': 'Amazon Cognito',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS Secrets Manager APIs'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974070',
+        'entity': 'Access',
+        'sentence': 'Access to AWS Secrets Manager APIs is granted through IAM '
+                    'policies.',
+        'snippet': 'Access to AWS Secrets Manager APIs',
+        'subject': 'AWS Secrets Manager APIs',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Flow Logs'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974084',
+        'entity': 'related',
+        'sentence': 'Closely related to Flow Logs, Amazon Route 53',
+        'snippet': 'related to Flow Logs',
+        'subject': 'Flow Logs',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Xamarin'}],
+        'associationType': 'PERSON',
+        'collectedTime': '2019-10-20 20:12:06.974100',
+        'entity': 'Although .NET was considered as an exclusive Windows '
+                  'technology, the use',
+        'sentence': 'Although .NET was considered as an exclusive Windows '
+                    'technology, the use of \n'
+                    'Xamarin for cross-platform mobile development, and the '
+                    'rise of .NET',
+        'snippet': 'Although .NET was considered as an exclusive Windows '
+                   'technology, the use of Xamarin',
+        'subject': 'Xamarin',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Visual Studio Code'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.113874',
+        'entity': '19 \n\nAWS Toolkit',
+        'sentence': '19 \n'
+                    '\n'
+                    'AWS Toolkit for Visual Studio Code '
+                    '..............................................................................',
+        'snippet': '19 \n\nAWS Toolkit for Visual Studio Code',
+        'subject': 'Visual Studio Code',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'also directly alternatively',
+                              'subject': 'Windows \n'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.113975',
+        'entity': 'applications',
+        'sentence': 'In some cases, it’s also possible to run .NET '
+                    'applications in Windows \n'
+                    'containers, and you can also run .NET applications on '
+                    'Amazon EC2 bare metal \n'
+                    'instances, either by running directly on the Windows OS '
+                    'of the host instance or \n'
+                    'alternatively by running Hyper-V on the instance.',
+        'snippet': 'applications in Windows \n',
+        'subject': 'Windows \n',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'other Linux distributions '
+                                            'available later',
+                              'subject': 'Amazon Linux'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114003',
+        'entity': 'available',
+        'sentence': 'Linux containers are \n'
+                    'available in Amazon Linux and other Linux distributions, '
+                    'and Windows containers are \n'
+                    'available in Windows 2016 and later.',
+        'snippet': 'available in Amazon Linux',
+        'subject': 'Amazon Linux',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114022',
+        'entity': 'available',
+        'sentence': 'SageMaker is available through the AWS SDK for .NET.',
+        'snippet': 'available through the AWS SDK',
+        'subject': 'the AWS SDK',
+        'verb': 'through'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Visual Studio'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114039',
+        'entity': 'Toolkit',
+        'sentence': 'Applications on AWS \n\nAWS Toolkit for Visual Studio',
+        'snippet': 'Toolkit for Visual Studio',
+        'subject': 'Visual Studio',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114070',
+        'entity': 'distributed',
+        'sentence': 'The latest \n'
+                    'versions are distributed in the Visual Studio '
+                    'Marketplace, and but all versions can be \n'
+                    'downloaded from the AWS Toolkit for Visual Studio web '
+                    'page.',
+        'snippet': 'distributed in the Visual Studio Marketplace',
+        'subject': 'the Visual Studio Marketplace',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Visual Studio Code \n\n'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114082',
+        'entity': 'AWS Toolkit',
+        'sentence': 'AWS Toolkit for Visual Studio Code',
+        'snippet': 'AWS Toolkit for Visual Studio Code \n\n',
+        'subject': 'Visual Studio Code \n\n',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'their \n'
+                                            'Integrated Development '
+                                            'Environment its flexibility low '
+                                            'resource',
+                              'subject': 'Visual Studio Code'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114120',
+        'entity': 'Software development teams',
+        'sentence': 'Software development teams working on codebases written '
+                    'in multiple programming \n'
+                    'languages and for multiple platforms increasingly choose '
+                    'Visual Studio Code as their \n'
+                    'Integrated Development Environment (IDE), due to its '
+                    'flexibility and low resource \n'
+                    'requirements.',
+        'snippet': 'Software development teams choose Visual Studio Code',
+        'subject': 'Visual Studio Code',
+        'verb': 'choose'},
+    {   'adjectives': [   {   'adjectives': 'that faster',
+                              'subject': 'Visual Studio \nCode'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114160',
+        'entity': 'an open source plug',
+        'sentence': 'The AWS Toolkit for Visual Studio Code is an open source '
+                    'plug-in for Visual Studio \n'
+                    'Code that helps developers get started faster and '
+                    'provides an integrated experience for \n'
+                    'developing, deploying, and testing serverless '
+                    'applications.',
+        'snippet': 'an open source plug for Visual Studio \nCode',
+        'subject': 'Visual Studio \nCode',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': 'also', 'subject': 'GitHub'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114189',
+        'entity': 'integrate',
+        'sentence': 'As an alternative to AWS CodeCommit, both AWS CodeBuild '
+                    'and AWS CodePipeline \n'
+                    'integrate with GitHub, and AWS CodeBuild also integrates '
+                    'with Bitbucket.',
+        'snippet': 'integrate with GitHub',
+        'subject': 'GitHub',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'SAML 2.0'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114226',
+        'entity': 'enterprise identity providers',
+        'sentence': 'Amazon Cognito scales to millions of users and \n'
+                    'supports sign-in with social identity providers, '
+                    'including Facebook, Google, and \n'
+                    'Amazon, and enterprise identity providers via SAML 2.0.',
+        'snippet': 'enterprise identity providers via SAML 2.0',
+        'subject': 'SAML 2.0',
+        'verb': 'via'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'CloudTrail events'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114256',
+        'entity': 'taken',
+        'sentence': 'AWS CloudTrail helps provide this \n'
+                    'transparency by monitoring and logging AWS API calls, '
+                    'effectively recording actions \n'
+                    'taken by users, roles, or AWS services as CloudTrail '
+                    'events.',
+        'snippet': 'taken as CloudTrail events',
+        'subject': 'CloudTrail events',
+        'verb': 'as'},
+    {   'adjectives': [],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114279',
+        'entity': 'monitor',
+        'sentence': 'You can use ELB Access \n'
+                    'Logs to monitor HTTP/HTTPS traffic to Application Load '
+                    'Balancers and TCP traffic to \n'
+                    'Network Load Balancers.',
+        'snippet': 'monitor to \nNetwork Load Balancers',
+        'subject': '\nNetwork Load Balancers',
+        'verb': 'to'},
+    {   'adjectives': [   {   'adjectives': 'your S3 buckets',
+                              'subject': 'S3 Server Access Logging to'}],
+        'associationType': 'FAC',
+        'collectedTime': '2019-10-20 20:12:07.114296',
+        'entity': 'You',
+        'sentence': 'You can use S3 Server Access Logging to \n'
+                    'track access requests to your S3 buckets for '
+                    'troubleshooting and security audit \n'
+                    'purposes.',
+        'snippet': 'You use S3 Server Access Logging to',
+        'subject': 'S3 Server Access Logging to',
+        'verb': 'use'},
+    {   'adjectives': [],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.260993',
+        'entity': 'runs',
+        'sentence': 'The .NET Framework is the original implementation of .NET '
+                    'and exclusively runs on \n'
+                    'Windows.',
+        'snippet': 'runs on \nWindows',
+        'subject': '\nWindows',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Android'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261179',
+        'entity': 'operating systems',
+        'sentence': 'Supporting both \n'
+                    '32- and 64-bit systems on various architectures, Mono '
+                    'runs on a wide variety of \n'
+                    'operating systems, including: Android, BSD, Linux, macOS, '
+                    'Solaris, Sony PlayStation 4, \n'
+                    'and Windows.',
+        'snippet': 'operating systems including Android',
+        'subject': 'Android',
+        'verb': 'including'},
+    {   'adjectives': [   {   'adjectives': 'mobile development iOS',
+                              'subject': 'Mono'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261234',
+        'entity': 'an offshoot',
+        'sentence': 'Xamarin \n'
+                    '\n'
+                    'Spawned as an offshoot from Mono for mobile development, '
+                    'Xamarin provides a \n'
+                    'number of tools and libraries for developing GUI '
+                    'applications for a variety of operating \n'
+                    'systems, including Android, iOS, macOS, tvOS, watchOS, '
+                    'and Windows.',
+        'snippet': 'an offshoot from Mono',
+        'subject': 'Mono',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'iOS physical devices',
+                              'subject': 'Xamarin development'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261279',
+        'entity': 'that',
+        'sentence': 'Given its use for developing mobile applications, one of '
+                    'the key AWS services that \n'
+                    'supports Xamarin development is AWS Device Farm, a '
+                    'service for testing Android and \n'
+                    'iOS applications on a variety of physical devices, '
+                    'including phones and tablets.',
+        'snippet': 'that supports Xamarin development',
+        'subject': 'Xamarin development',
+        'verb': 'supports'},
+    {   'adjectives': [{'adjectives': 'common', 'subject': 'Windows'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261304',
+        'entity': 'the rich set',
+        'sentence': 'Given the rich set of services built \n'
+                    'into Windows, it is common for legacy .NET',
+        'snippet': 'the rich set into Windows',
+        'subject': 'Windows',
+        'verb': 'into'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Kubernetes'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261331',
+        'entity': 'all versions',
+        'sentence': 'Since Linux containers are available in all versions of '
+                    'Kubernetes, you can run .NET',
+        'snippet': 'all versions of Kubernetes',
+        'subject': 'Kubernetes',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': 'only later', 'subject': 'Kubernetes'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261364',
+        'entity': 'starting',
+        'sentence': 'In contrast, Windows containers are only \n'
+                    'available starting with Kubernetes 1.14, but they are '
+                    'only supported in Windows 2019 \n'
+                    'and later.',
+        'snippet': 'starting with Kubernetes',
+        'subject': 'Kubernetes',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': 'well', 'subject': 'Git repositories'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261394',
+        'entity': 'familiar',
+        'sentence': 'Most .NET developers are familiar with Git repositories '
+                    'and are well versed in using \n'
+                    'them to collaborate on software development projects.',
+        'snippet': 'familiar with Git repositories',
+        'subject': 'Git repositories',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Account Profiles'}],
+        'associationType': 'GPE',
+        'collectedTime': '2019-10-20 20:12:07.261418',
+        'entity': 'working',
+        'sentence': 'For more details on working with Account Profiles in '
+                    'Microsoft Visual Studio, see \n'
+                    'Providing AWS Credentials.',
+        'snippet': 'working with Account Profiles',
+        'subject': 'Account Profiles',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754173',
+        'entity': 'Developing',
+        'sentence': 'Developing and Deploying .NET \n'
+                    '\n'
+                    'Applications on AWS \n'
+                    '\n'
+                    ' \n'
+                    '\n'
+                    'October 2019',
+        'snippet': 'Developing on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'its affiliates', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754268',
+        'entity': 'any commitments',
+        'sentence': 'This document: (a) is for informational purposes only, '
+                    '(b) \n'
+                    'represents current AWS product offerings and practices, '
+                    'which are subject to change \n'
+                    'without notice, and (c) does not create any commitments '
+                    'or assurances from AWS and \n'
+                    'its affiliates, suppliers or licensors.',
+        'snippet': 'any commitments from AWS',
+        'subject': 'AWS',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'its customers not its customers',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754312',
+        'entity': 'The responsibilities',
+        'sentence': 'The responsibilities and liabilities of AWS to its '
+                    'customers are controlled by \n'
+                    'AWS agreements, and this document is not part of, nor '
+                    'does it modify, any agreement \n'
+                    'between AWS and its customers.',
+        'snippet': 'The responsibilities of AWS',
+        'subject': 'AWS',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754327',
+        'entity': 'Working',
+        'sentence': 'Working with Different Variants of .NET',
+        'snippet': 'Working with Different Variants',
+        'subject': 'Different Variants',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754343',
+        'entity': '.NET Applications',
+        'sentence': '12 \n'
+                    '\n'
+                    'Storage Solutions for .NET Applications on AWS '
+                    '.........................................................',
+        'snippet': '.NET Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'PowerShell'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754356',
+        'entity': '19 \n\nAWS Tools',
+        'sentence': '19 \n'
+                    '\n'
+                    'AWS Tools for '
+                    'PowerShell.............................................................................................',
+        'snippet': '19 \n\nAWS Tools for PowerShell',
+        'subject': 'PowerShell',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'deploying',
+                              'subject': 'Microsoft Windows'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754397',
+        'entity': 'the standard application development framework',
+        'sentence': 'As the standard application development framework for '
+                    'Microsoft Windows, developing \n'
+                    'and deploying .NET applications on Amazon Web Services '
+                    '(AWS) is a key activity to \n'
+                    'help organizations achieve the scale and agility offered '
+                    'by cloud computing.',
+        'snippet': 'the standard application development framework for '
+                   'Microsoft Windows',
+        'subject': 'Microsoft Windows',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754431',
+        'entity': 'their applications',
+        'sentence': 'It serves as a starting point for .NET architects \n'
+                    'and developers who wish to develop, build, deploy and '
+                    'maintain their applications on \n'
+                    'AWS.',
+        'snippet': 'their applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'that their', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754477',
+        'entity': 'applications',
+        'sentence': 'It describes the approaches that can be used to deploy '
+                    '.NET applications on \n'
+                    'AWS, and details the options, choices, and services that '
+                    'can help readers get the most \n'
+                    'business value from their cloud-based .NET workloads.',
+        'snippet': 'applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS \n\nIntroduction \n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754488',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nIntroduction',
+        'snippet': 'Applications on AWS \n\nIntroduction \n',
+        'subject': 'AWS \n\nIntroduction \n',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754540',
+        'entity': 'Working',
+        'sentence': 'Working with Different Variants of .NET \n'
+                    '\n'
+                    'Given the wide variety of .NET implementations, each of '
+                    'which provides slightly \n'
+                    'different capabilities and packaging tools, it’s useful '
+                    'to understand the key differences \n'
+                    'between the implementations to understand the full set of '
+                    'options and how best to run \n'
+                    '.NET applications on AWS.',
+        'snippet': 'Working with Different Variants',
+        'subject': 'Different Variants',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754554',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nFigure 1:',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754563',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'later sections suitable',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754592',
+        'entity': 'supported',
+        'sentence': 'Both methods are supported on AWS, and in later sections '
+                    'of this paper, we discuss the \n'
+                    'various deployment methods and tools suitable for running '
+                    '.NET Framework \n'
+                    'applications.',
+        'snippet': 'supported on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Mono applications'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754619',
+        'entity': 'You',
+        'sentence': 'You can run Mono applications on AWS using Amazon Elastic '
+                    'Compute Cloud \n'
+                    '(Amazon EC2), and containers, and it can run on Windows '
+                    'and the Linux operating \n'
+                    'system.',
+        'snippet': 'You run Mono applications',
+        'subject': 'Mono applications',
+        'verb': 'run'},
+    {   'adjectives': [   {   'adjectives': 'iOS physical devices',
+                              'subject': 'AWS Device Farm'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754658',
+        'entity': 'one',
+        'sentence': 'Given its use for developing mobile applications, one of '
+                    'the key AWS services that \n'
+                    'supports Xamarin development is AWS Device Farm, a '
+                    'service for testing Android and \n'
+                    'iOS applications on a variety of physical devices, '
+                    'including phones and tablets.',
+        'snippet': 'one is AWS Device Farm',
+        'subject': 'AWS Device Farm',
+        'verb': 'is'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Xamarin applications'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754689',
+        'entity': 'you',
+        'sentence': 'Although it predominately runs on end-\n'
+                    'user devices, you can run Xamarin applications on AWS '
+                    'using Windows running on \n'
+                    'Amazon EC2, or within Amazon Elastic Container Service '
+                    '(Amazon ECS) or Amazon \n'
+                    'Elastic Kubernetes Service (',
+        'snippet': 'you run Xamarin applications',
+        'subject': 'Xamarin applications',
+        'verb': 'run'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754699',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754728',
+        'entity': 'XR \ncontent',
+        'sentence': 'Although it’s predominately used for games, Unity’s '
+                    'growing popularity for creating XR \n'
+                    'content—including Virtual Reality, Augmented Reality, and',
+        'snippet': 'XR \ncontent including Virtual Reality',
+        'subject': 'Virtual Reality',
+        'verb': 'including'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754764',
+        'entity': 'provides',
+        'sentence': 'However, although .NET Core provides many of the \n'
+                    'same interfaces and method signatures as the .NET '
+                    'Framework, there are a variety of \n'
+                    'differences, making it potentially difficult to migrate '
+                    'applications from the .NET \n'
+                    'Framework to .NET',
+        'snippet': 'provides as the .NET Framework',
+        'subject': 'the .NET Framework',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'direct \ndeployments',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754788',
+        'entity': 'Core applications',
+        'sentence': 'Core applications on AWS as direct \n'
+                    'deployments on Windows or Linux EC2 instances, on Windows '
+                    'or Linux containers \n'
+                    'running on EC2 instances, serverless Linux containers '
+                    'running on AWS Fargate, or \n'
+                    'serverless AWS Lambda functions.',
+        'snippet': 'Core applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754804',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'can be reused in all flavors of .NET',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'virtual machines', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754827',
+        'entity': 'applications',
+        'sentence': 'For the many legacy .NET applications, the most suitable '
+                    'compute choice for running \n'
+                    'applications in AWS is using virtual machines, using '
+                    'either AWS Elastic Beanstalk or \n'
+                    'Amazon EC2.',
+        'snippet': 'applications in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'directly alternatively',
+                              'subject': 'Amazon EC2 bare metal \ninstances'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754870',
+        'entity': 'applications',
+        'sentence': 'In some cases, it’s also possible to run .NET '
+                    'applications in Windows \n'
+                    'containers, and you can also run .NET applications on '
+                    'Amazon EC2 bare metal \n'
+                    'instances, either by running directly on the Windows OS '
+                    'of the host instance or \n'
+                    'alternatively by running Hyper-V on the instance.',
+        'snippet': 'applications on Amazon EC2 bare metal \ninstances',
+        'subject': 'Amazon EC2 bare metal \ninstances',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754879',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'increasingly common immutable '
+                                            'deployment',
+                              'subject': 'Docker'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754928',
+        'entity': 'the integration',
+        'sentence': 'For legacy .NET applications, virtual machines are often '
+                    'considered the natural choice, \n'
+                    'although the integration of Docker with Windows means the '
+                    'use of containers is \n'
+                    'growing increasingly common, since they bring with them a '
+                    'number of benefits, \n'
+                    'including immutable deployment and improved resource '
+                    'utilization.',
+        'snippet': 'the integration of Docker',
+        'subject': 'Docker',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'explicitly which also',
+                              'subject': 'OS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.754961',
+        'entity': 'the choice',
+        'sentence': 'Another factor driving the choice of OS is the current '
+                    'architectural wisdom to explicitly \n'
+                    'declare and isolate dependencies, as promoted by the '
+                    '12-factor app approach, which \n'
+                    'also aligns to the single process model of containers.',
+        'snippet': 'the choice of OS',
+        'subject': 'OS',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'distributed transaction '
+                                            'processing explicitly such '
+                                            'dependencies intrinsic features '
+                                            'no longer once',
+                              'subject': 'Active Directory'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755020',
+        'entity': 'a variety',
+        'sentence': 'Framework applications to implicitly depend \n'
+                    'on a variety of services—such as Active Directory for '
+                    'authentication and authorization, \n'
+                    'COM+ for distributed transaction processing, or DFS for '
+                    'file sharing—but with the move \n'
+                    'towards explicitly declaring and isolating such '
+                    'dependencies, relying on Windows’ \n'
+                    'intrinsic features no longer holds the lure for .NET '
+                    'applications that it once did.',
+        'snippet': 'a variety as Active Directory',
+        'subject': 'Active Directory',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755081',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755093',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS whitepaper'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755135',
+        'entity': 'Microservices',
+        'sentence': 'For more information on how to design and develop '
+                    'microservices, see the \n'
+                    'Implementing Microservices on AWS whitepaper.',
+        'snippet': 'Microservices on AWS whitepaper',
+        'subject': 'AWS whitepaper',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755153',
+        'entity': 'application',
+        'sentence': 'When migrating any type of application to AWS, including '
+                    'legacy .NET',
+        'snippet': 'application to AWS',
+        'subject': 'AWS',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755199',
+        'entity': 'applications',
+        'sentence': 'Although there’s a number of reasons to modernize '
+                    'applications by re-platforming or \n'
+                    'refactoring—including optimizing or adding new '
+                    'features—the simplest way to migrate \n'
+                    '.NET applications to AWS is to rehost the applications '
+                    'using either AWS Elastic \n'
+                    'Beanstalk or Amazon EC2.',
+        'snippet': 'applications to AWS',
+        'subject': 'AWS',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755210',
+        'entity': 'applications',
+        'sentence': 'applications on \nAWS.',
+        'snippet': 'applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'ready',
+                              'subject': 'AWS \n\napplication'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755231',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'application will be ready within minutes to use without '
+                    'any infrastructure or resource \n'
+                    'configuration work.',
+        'snippet': 'Applications on AWS \n\napplication',
+        'subject': 'AWS \n\napplication',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS Elastic Beanstalk environment'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755266',
+        'entity': 'run',
+        'sentence': 'While providing all these \n'
+                    'benefits, AWS Elastic Beanstalk also allows you to retain '
+                    'complete control over your \n'
+                    'application resources, allowing you to seamlessly make '
+                    'changes to the way your \n'
+                    'applications run inside AWS Elastic Beanstalk '
+                    'environment.',
+        'snippet': 'run inside AWS Elastic Beanstalk environment',
+        'subject': 'AWS Elastic Beanstalk environment',
+        'verb': 'inside'},
+    {   'adjectives': [   {   'adjectives': 'your \napplication such',
+                              'subject': 'AWS Elastic Beanstalk'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755291',
+        'entity': 'started',
+        'sentence': 'To get started with AWS Elastic Beanstalk you create '
+                    'Environments for your \n'
+                    'application, such as Dev, Test, or Production.',
+        'snippet': 'started with AWS Elastic Beanstalk',
+        'subject': 'AWS Elastic Beanstalk',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'your web applications therefore '
+                                            'possible multiple \n'
+                                            'applications dedicated '
+                                            'application pools',
+                              'subject': 'Application Pools'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755325',
+        'entity': 'you',
+        'sentence': 'It also allows you to control Application Pools '
+                    'associated \n'
+                    'with your web applications in IIS, therefore making it '
+                    'possible to host multiple \n'
+                    'applications with a shared application pool, or assigning '
+                    'dedicated application pools to \n'
+                    'each application.',
+        'snippet': 'you control Application Pools',
+        'subject': 'Application Pools',
+        'verb': 'control'},
+    {   'adjectives': [   {   'adjectives': 'which additional software '
+                                            'packages other dependencies your',
+                              'subject': 'AWS Elastic Beanstalk \n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755359',
+        'entity': 'configure',
+        'sentence': 'You can further customize and configure your web-server '
+                    'in AWS Elastic Beanstalk \n'
+                    'using configuration files, which let you install '
+                    'additional software packages, files, \n'
+                    'windows services, or other dependencies your application '
+                    'needs to run.',
+        'snippet': 'configure in AWS Elastic Beanstalk \n',
+        'subject': 'AWS Elastic Beanstalk \n',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755371',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nwith Amazon Route 53',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'minimal changes more control then '
+                                            'directly fine your \n'
+                                            'infrastructure configuration',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755406',
+        'entity': 'move',
+        'sentence': 'Although AWS Elastic Beanstalk can help you quickly move '
+                    'your .NET applications to \n'
+                    'AWS with minimal changes, if you need more control of the '
+                    'underlying infrastructure, \n'
+                    'then directly using Amazon EC2 virtual machines allows '
+                    'you to fine tune your \n'
+                    'infrastructure configuration.',
+        'snippet': 'move to AWS',
+        'subject': 'AWS',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755431',
+        'entity': 'the choice',
+        'sentence': 'You have the choice of both x86 (32-bit), as well as x64 '
+                    '(64-\n'
+                    'bit) platforms in Amazon EC2.',
+        'snippet': 'the choice in Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'numerous community available your '
+                                            'own images',
+                              'subject': 'Amazon Machine Images'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755465',
+        'entity': 'choose',
+        'sentence': 'For any of these, you can choose from Amazon Machine '
+                    'Images (AMIs) provided by \n'
+                    'AWS, numerous community and AWS Partner AMIs available in '
+                    'the AWS Marketplace, \n'
+                    'or you can create or import your own images.',
+        'snippet': 'choose from Amazon Machine Images',
+        'subject': 'Amazon Machine Images',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS \n'
+                                         'Identity and Access Management'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755504',
+        'entity': 'other services',
+        'sentence': 'In addition to these choices, you can also benefit from '
+                    'various features, such as \n'
+                    'automatic scaling, self-healing, and deep integration '
+                    'with other services, such as AWS \n'
+                    'Identity and Access Management (IAM), AWS Key Management '
+                    'Service (AWS KMS), \n'
+                    'or Amazon Elastic Block Storage (Amazon EBS).',
+        'snippet': 'other services as AWS \nIdentity and Access Management',
+        'subject': 'AWS \nIdentity and Access Management',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755513',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'AWS \nCloudFormation templates'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755542',
+        'entity': 'Code',
+        'sentence': 'There are a variety of ways you can deploy your .NET '
+                    'applications on Amazon EC2 \n'
+                    'instances, from manual deployments to using '
+                    'Infrastructure as Code with AWS \n'
+                    'CloudFormation templates and Continuous '
+                    'Integration/Continuous Deployment \n'
+                    'pipelines.',
+        'snippet': 'Code with AWS \nCloudFormation templates',
+        'subject': 'AWS \nCloudFormation templates',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'securely',
+                              'subject': 'AWS Systems Manager Run Command'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755561',
+        'entity': 'you',
+        'sentence': 'Fortunately, you can use \n'
+                    'AWS Systems Manager Run Command to securely run the '
+                    'command at any scale.',
+        'snippet': 'you use AWS Systems Manager Run Command',
+        'subject': 'AWS Systems Manager Run Command',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'your target server configurations',
+                              'subject': 'AWS Systems Manager State Manager'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755581',
+        'entity': 'You',
+        'sentence': 'You can also use AWS Systems Manager State Manager for '
+                    'handling drift-\n'
+                    'management and ensuring compliance of your target server '
+                    'configurations.',
+        'snippet': 'You use AWS Systems Manager State Manager',
+        'subject': 'AWS Systems Manager State Manager',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'your desired state declarative \n'
+                                            'language',
+                              'subject': 'PowerShell Desired State '
+                                         'Configuration'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755604',
+        'entity': 'State \nManager',
+        'sentence': 'State \n'
+                    'Manager supports PowerShell Desired State Configuration '
+                    '(DSC) and enables you to \n'
+                    'use DSC Managed Object Format files to define your '
+                    'desired state using declarative \n'
+                    'language.',
+        'snippet': 'State \n'
+                   'Manager supports PowerShell Desired State Configuration',
+        'subject': 'PowerShell Desired State Configuration',
+        'verb': 'supports'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Windows Communication \nFoundation'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755633',
+        'entity': 'the installed state',
+        'sentence': 'For example, you can specify the installed state of '
+                    'Windows Communication \n'
+                    'Foundation (WCF) as the desired state on a server, and '
+                    'DSC will ensure WCF is \n'
+                    'installed.',
+        'snippet': 'the installed state of Windows Communication \nFoundation',
+        'subject': 'Windows Communication \nFoundation',
+        'verb': 'of'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755656',
+        'entity': 'integration',
+        'sentence': 'AWS Systems Manager augments PowerShell DSC through '
+                    'integration with \n'
+                    'Parameter Store, Amazon Simple Storage Service (Amazon '
+                    'S3) and Amazon \n'
+                    'CloudWatch.',
+        'snippet': 'integration with \nParameter Store',
+        'subject': '\nParameter Store',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755666',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755685',
+        'entity': 'using',
+        'sentence': 'For more details, see Run compliance enforcement and view '
+                    'compliant and non-\n'
+                    'compliant instances using AWS Systems Manager and '
+                    'PowerShell DSC on the AWS \n'
+                    'Management Tools Blog.',
+        'snippet': 'using on the AWS \nManagement Tools Blog',
+        'subject': 'the AWS \nManagement Tools Blog',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'complex operations dynamic '
+                                            'workflows that fully automated '
+                                            'runbooks',
+                              'subject': 'AWS Systems Manager Automation'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755712',
+        'entity': 'you',
+        'sentence': 'Finally, you can use AWS Systems Manager Automation to '
+                    'simplify complex operations \n'
+                    'and define dynamic workflows that orchestrate invocation '
+                    'of AWS Systems Manager or \n'
+                    'any other AWS APIs in fully automated runbooks.',
+        'snippet': 'you use AWS Systems Manager Automation',
+        'subject': 'AWS Systems Manager Automation',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'modern applications increasingly '
+                                            'evolutionary design best '
+                                            'practices',
+                              'subject': 'DevOps'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755747',
+        'entity': 'known',
+        'sentence': 'With the push to unlock business agility by using modern '
+                    'development and operations \n'
+                    'practices known as DevOps, modern applications are '
+                    'increasingly designed for \n'
+                    'flexibility using the principles of evolutionary design '
+                    'and a variety of best practices.',
+        'snippet': 'known as DevOps',
+        'subject': 'DevOps',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'their own libraries then • '
+                                            'high-density as well',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755804',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Running Applications in Containers \n'
+                    '\n'
+                    'Containers allow applications to be bundled with their '
+                    'own libraries and configuration \n'
+                    'files, and then executed in isolation on a single OS '
+                    'kernel, bringing a number of \n'
+                    'benefits, including: \n'
+                    '\n'
+                    '• \n'
+                    '\n'
+                    'Isolation and high-density: Containerization ensures '
+                    'application isolation both \n'
+                    'in terms of security and data access, as well as resource '
+                    'allocation.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755819',
+        'entity': 'available',
+        'sentence': 'The following sections discuss the four container '
+                    'services available in AWS.',
+        'snippet': 'available in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'deep integration such',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755849',
+        'entity': 'developed',
+        'sentence': 'It has been natively developed in AWS and offers deep '
+                    'integration with AWS services \n'
+                    'such as Elastic Load Balancing, Amazon Virtual Private '
+                    'Cloud (Amazon VPC), IAM, \n'
+                    'AWS Batch, and Amazon CloudWatch.',
+        'snippet': 'developed in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755863',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'workloads, and supports both Linux and Windows '
+                    'containers.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'ECS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755885',
+        'entity': 'Windows containers',
+        'sentence': 'For more information on running Windows containers on '
+                    'ECS, see Migrating .NET \n'
+                    'Classic Applications to Amazon ECS on the AWS Compute '
+                    'Blog.',
+        'snippet': 'Windows containers on ECS',
+        'subject': 'ECS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755916',
+        'entity': 'using',
+        'sentence': 'Amazon EKS makes it easy to deploy, manage and scale '
+                    'containerized applications \n'
+                    'using Kubernetes on AWS by managing clusters of Amazon '
+                    'EC2 instances and running \n'
+                    'containers on those instances.',
+        'snippet': 'using on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'which then easily',
+                              'subject': 'AWS IAM'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755946',
+        'entity': 'other AWS services',
+        'sentence': 'Amazon ECR is integrated with other AWS services, such as '
+                    'AWS IAM, and provides a \n'
+                    'repository to store container images which you can then '
+                    'easily use from Amazon ECS, \n'
+                    'AWS Fargate, and Amazon EKS.',
+        'snippet': 'other AWS services as AWS IAM',
+        'subject': 'AWS IAM',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'that away such',
+                              'subject': 'Amazon ECS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755973',
+        'entity': 'a serverless compute engine',
+        'sentence': 'AWS Fargate \n'
+                    '\n'
+                    'AWS Fargate is a serverless compute engine for Amazon '
+                    'ECS, that abstracts away \n'
+                    'details of the underlying host infrastructure such as the '
+                    'instance types, instance sizes, \n'
+                    'and host OS version.',
+        'snippet': 'a serverless compute engine for Amazon ECS',
+        'subject': 'Amazon ECS',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': 'your applications', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.755996',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'By letting you focus on designing and building your '
+                    'applications and removing the need \n'
+                    'to manage the underlying infrastructure',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Linux containers'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756010',
+        'entity': 'AWS Fargate',
+        'sentence': 'AWS Fargate supports Linux containers and is a powerful '
+                    'option for running .NET',
+        'snippet': 'AWS Fargate supports Linux containers',
+        'subject': 'Linux containers',
+        'verb': 'supports'},
+    {   'adjectives': [   {   'adjectives': 'however still your \n'
+                                            'container images',
+                              'subject': 'AWS Lambda  \n\nContainers'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756092',
+        'entity': 'Creating Serverless Applications',
+        'sentence': 'For more details, see Hosting ASP.NET Core applications '
+                    'using AWS \n'
+                    'Fargate on the AWS Compute Blog. \n'
+                    '\n'
+                    'Creating Serverless Applications with AWS Lambda  \n'
+                    '\n'
+                    'Containers provide a high level of flexibility; however, '
+                    'you still need to manage your \n'
+                    'container images, including the guest OS and any '
+                    'application dependencies.',
+        'snippet': 'Creating Serverless Applications with AWS Lambda  \n'
+                   '\n'
+                   'Containers',
+        'subject': 'AWS Lambda  \n\nContainers',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Nginx or \nApache'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756113',
+        'entity': 'a web server',
+        'sentence': 'Core runtime library, the ASP.NET Kestrel engine, and a '
+                    'web server such as Nginx or \n'
+                    'Apache.',
+        'snippet': 'a web server as Nginx or \nApache',
+        'subject': 'Nginx or \nApache',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Lambda functions'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756160',
+        'entity': 'you',
+        'sentence': 'Although API Gateway helps manage well-defined APIs, when '
+                    'you don’t need the \n'
+                    'governance features it offers, you can deploy Lambda '
+                    'functions behind an Application \n'
+                    '\n'
+                    ' \n'
+                    '\n'
+                    'Page 15 \n'
+                    '\n'
+                    '\x0c'
+                    'Amazon Web Services \n'
+                    '\n'
+                    'Developing and Deploying .NET',
+        'snippet': 'you deploy Lambda functions',
+        'subject': 'Lambda functions',
+        'verb': 'deploy'},
+    {   'adjectives': [   {   'adjectives': 'which elastically',
+                              'subject': 'AWS \n\nLoad Balancer'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756185',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Load Balancer (ALB), which allows load to scale '
+                    'elastically without having to maintain a \n'
+                    'set of managed APIs.',
+        'snippet': 'Applications on AWS \n\nLoad Balancer',
+        'subject': 'AWS \n\nLoad Balancer',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Lambda whitepaper'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756204',
+        'entity': 'the \nServerless Architectures',
+        'sentence': 'For more information on how to create applications using '
+                    'AWS Lambda, see the \n'
+                    'Serverless Architectures with AWS Lambda whitepaper.',
+        'snippet': 'the \nServerless Architectures with AWS Lambda whitepaper',
+        'subject': 'AWS Lambda whitepaper',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756217',
+        'entity': '.NET Applications',
+        'sentence': 'Storage Solutions for .NET Applications on AWS',
+        'snippet': '.NET Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'There also specialized databases '
+                                            'key-value and document storage',
+                              'subject': 'Amazon \n'
+                                         'Relational Database Service'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756259',
+        'entity': 'purpose-built relational database services',
+        'sentence': 'AWS  includes a number of purpose-built relational '
+                    'database services, such as Amazon \n'
+                    'Relational Database Service (Amazon RDS), Amazon Aurora, '
+                    'and Amazon Redshift, \n'
+                    'the fastest growing cloud data warehouse service, \n'
+                    '\n'
+                    'There are also a number of specialized databases, '
+                    'including Amazon DynamoDB for \n'
+                    'key-value and document storage, Amazon Neptune for graph '
+                    'data, Amazon Quantum \n'
+                    'Ledger Database, and Amazon Managed Blockchain.',
+        'snippet': 'purpose-built relational database services as Amazon \n'
+                   'Relational Database Service',
+        'subject': 'Amazon \nRelational Database Service',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Amazon Simple Storage Service'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756291',
+        'entity': 'applications',
+        'sentence': 'applications can use Amazon Simple Storage Service '
+                    '(Amazon S3) for object \n'
+                    'storage, and Amazon Elastic File Storage (Amazon EFS) for '
+                    'Linux-based shared file \n'
+                    'systems, or Amazon FSx for Windows file shares.',
+        'snippet': 'applications use Amazon Simple Storage Service',
+        'subject': 'Amazon Simple Storage Service',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': 'intensive', 'subject': 'Amazon EC2'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756318',
+        'entity': 'use',
+        'sentence': 'Finally, Amazon Elastic Block Storage is an easy to use, '
+                    'high performance block \n'
+                    'storage service designed for use with Amazon EC2 for both '
+                    'throughput and transaction \n'
+                    'intensive workloads at any scale.',
+        'snippet': 'use with Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon \nElastiCache'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756347',
+        'entity': 'caching',
+        'sentence': 'You can build extremely high-performance .NET '
+                    'applications using elasticity and \n'
+                    'flexibility of managed AWS services for in-memory '
+                    'caching, such as Amazon \n'
+                    'ElastiCache for Redis and Memcached, or Amazon '
+                    'Elasticseach Service.',
+        'snippet': 'caching as Amazon \nElastiCache',
+        'subject': 'Amazon \nElastiCache',
+        'verb': 'as'},
+    {   'adjectives': [   {   'adjectives': 'all the popular open-source '
+                                            'frameworks',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756376',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'computer vision, language, recommendations, and '
+                    'forecasting—or you can build, train \n'
+                    'and deploy custom models with support for all the popular '
+                    'open-source frameworks.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756388',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nDeveloping .NET',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'easy-to-use tools higher levels',
+                              'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756423',
+        'entity': 'integrate',
+        'sentence': 'One of the fundamental requirements when developing .NET '
+                    'applications to run or \n'
+                    'integrate with AWS services is having easy-to-use tools '
+                    'to help access the services, \n'
+                    'integrate with the development workflow and tooling, and '
+                    'enable higher levels of \n'
+                    'developer productivity.',
+        'snippet': 'integrate with AWS services',
+        'subject': 'AWS services',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756436',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nAWS Toolkit for Visual Studio',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'that easier debug that',
+                              'subject': 'Visual Studio'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756461',
+        'entity': 'a plugin',
+        'sentence': 'The AWS Toolkit for Visual Studio is a plugin for Visual '
+                    'Studio that makes it easier to \n'
+                    'develop, debug, and deploy .NET applications that use '
+                    'Amazon Web Services.',
+        'snippet': 'a plugin for Visual Studio',
+        'subject': 'Visual Studio',
+        'verb': 'for'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756497',
+        'entity': 'are',
+        'sentence': 'The toolkit contains a rich set of features that help '
+                    'configure and deploy new solutions, \n'
+                    'and can be broken down into a number of core features, '
+                    'most of which are available \n'
+                    'from the AWS Explorer in Visual Studio’s View menu.',
+        'snippet': 'are from the AWS Explorer',
+        'subject': 'the AWS Explorer',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'widely also available',
+                              'subject': 'PowerShell'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756526',
+        'entity': 'AWS Tools',
+        'sentence': 'AWS Tools for PowerShell \n'
+                    '\n'
+                    'PowerShell is a scripting environment built on .NET, and '
+                    'is widely used as the standard \n'
+                    'scripting tool on Windows, but is also available for '
+                    'MacOS, and Linux.',
+        'snippet': 'AWS Tools for PowerShell',
+        'subject': 'PowerShell',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'directly their \n'
+                                            'standard toolset directly',
+                              'subject': 'PowerShell'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756558',
+        'entity': 'AWS Tools',
+        'sentence': 'AWS Tools for PowerShell lets developers directly access '
+                    'AWS services from within \n'
+                    'PowerShell scripts, allowing them to manage and interact '
+                    'with AWS services with their \n'
+                    'standard toolset, and removing the need to call the AWS '
+                    'SDK for .NET directly from \n'
+                    'within scripts.',
+        'snippet': 'AWS Tools for PowerShell',
+        'subject': 'PowerShell',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'that continuous integration '
+                                            'continuous delivery',
+                              'subject': 'DevOps'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756580',
+        'entity': 'plays',
+        'sentence': 'Test Tools \n'
+                    '\n'
+                    'Test automation plays a critical part in DevOps, and is '
+                    'the fundamental development \n'
+                    'practice that enables continuous integration and '
+                    'continuous delivery.',
+        'snippet': 'plays in DevOps',
+        'subject': 'DevOps',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756590',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756607',
+        'entity': 'hosted',
+        'sentence': 'Many developers opt to run their integration tests in '
+                    'environments hosted in AWS.',
+        'snippet': 'hosted in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756631',
+        'entity': 'that',
+        'sentence': 'In \n'
+                    'addition, the Localstack project is an open source tool '
+                    'that runs AWS APIs locally and \n'
+                    'can be called directly from your test suites.',
+        'snippet': 'that runs AWS APIs',
+        'subject': 'AWS APIs',
+        'verb': 'runs'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756666',
+        'entity': 'known',
+        'sentence': 'Given the complexity of deploying modern applications and '
+                    'infrastructure, doing so in a \n'
+                    'repeatable manner requires the deployment to be '
+                    'automated, and the practice and \n'
+                    'processes of automating infrastructure deployment are '
+                    'commonly known as \n'
+                    'Infrastructure as Code.',
+        'snippet': 'known as \nInfrastructure',
+        'subject': '\nInfrastructure',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756675',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756703',
+        'entity': 'use',
+        'sentence': 'You can use a variety of methods to deploy templates and '
+                    'provision resources, \n'
+                    'including the AWS Management Console, AWS Command Line '
+                    'Interface (AWS CLI), \n'
+                    'PowerShell or the AWS SDK for .NET.',
+        'snippet': 'use including the AWS Management Console',
+        'subject': 'the AWS Management Console',
+        'verb': 'including'},
+    {   'adjectives': [   {   'adjectives': 'your templates multiple AWS',
+                              'subject': 'CloudFormation StackSets'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756732',
+        'entity': 'you',
+        'sentence': 'CloudFormation Stacks are always deployed in a single AWS '
+                    'account and Region, but \n'
+                    'you can use CloudFormation StackSets to deploy your '
+                    'templates across multiple AWS \n'
+                    'accounts and regions.',
+        'snippet': 'you use CloudFormation StackSets',
+        'subject': 'CloudFormation StackSets',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'TypeScript'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756757',
+        'entity': 'various programming languages',
+        'sentence': 'The AWS Cloud Development Kit (AWS CDK) allows you to '
+                    'define cloud resources in \n'
+                    'various programming languages, including TypeScript, '
+                    'JavaScript, Python, C#, and \n'
+                    'Java.',
+        'snippet': 'various programming languages including TypeScript',
+        'subject': 'TypeScript',
+        'verb': 'including'},
+    {   'adjectives': [{'adjectives': 'which then', 'subject': 'Constructs'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756784',
+        'entity': 'known',
+        'sentence': 'Developers use one of the supported languages to write '
+                    'code that defines \n'
+                    'reusable cloud components known as Constructs, which can '
+                    'then be composed into \n'
+                    'Stacks and Apps.',
+        'snippet': 'known as Constructs',
+        'subject': 'Constructs',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756793',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'also', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756822',
+        'entity': 'integrate',
+        'sentence': 'Although you can continue using your \n'
+                    'favorite tools and easily integrate them with AWS '
+                    'services, you can also use AWS \n'
+                    'developer tools to create a complete pipeline, or '
+                    'complement, or extend the other tools \n'
+                    'you are using.',
+        'snippet': 'integrate with AWS services',
+        'subject': 'AWS services',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'your source code other binaries '
+                                            'that your code',
+                              'subject': 'AWS \nCodeCommit'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756844',
+        'entity': 'You',
+        'sentence': 'You can use AWS \n'
+                    'CodeCommit to store anything from your source code to '
+                    'other binaries and \n'
+                    'dependencies that go with your code.',
+        'snippet': 'You use AWS \nCodeCommit',
+        'subject': 'AWS \nCodeCommit',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': 'that', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756861',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'bugs that have nothing to do with the code.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'also', 'subject': 'AWS CodeCommit'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756883',
+        'entity': 'an alternative',
+        'sentence': 'As an alternative to AWS CodeCommit, both AWS CodeBuild '
+                    'and AWS CodePipeline \n'
+                    'integrate with GitHub, and AWS CodeBuild also integrates '
+                    'with Bitbucket.',
+        'snippet': 'an alternative to AWS CodeCommit',
+        'subject': 'AWS CodeCommit',
+        'verb': 'to'},
+    {   'adjectives': [   {   'adjectives': 'pre-built Docker images such '
+                                            'official Microsoft images your '
+                                            'own custom build environment',
+                              'subject': 'Linux'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756908',
+        'entity': 'Core',
+        'sentence': 'Core on Linux and \n'
+                    'Windows, or you can use pre-built Docker images, such as '
+                    'official Microsoft images for \n'
+                    'the .NET Framework, or create your own custom build '
+                    'environment by creating a \n'
+                    'Docker image.',
+        'snippet': 'Core on Linux',
+        'subject': 'Linux',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Custom Build Environments'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756926',
+        'entity': 'Extending',
+        'sentence': 'Extending AWS CodeBuild with Custom Build Environments '
+                    'for the .NET Framework on \n'
+                    'the AWS DevOps Blog. \n'
+                    '\n'
+                    'Application Deployment',
+        'snippet': 'Extending with Custom Build Environments',
+        'subject': 'Custom Build Environments',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'automate \n'
+                                            'application deployments',
+                              'subject': 'AWS CodePipeline'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756955',
+        'entity': 'integrates',
+        'sentence': 'There are also a variety of ways to deploy .NET '
+                    'applications, and AWS CodeDeploy is \n'
+                    'a deployment service that integrates with AWS '
+                    'CodePipeline and helps automate \n'
+                    'application deployments to Amazon EC2 instances, Amazon '
+                    'ECS services, on-',
+        'snippet': 'integrates with AWS CodePipeline',
+        'subject': 'AWS CodePipeline',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756969',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'premises instances, and serverless Lambda functions.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'also AWS CodeDeploy',
+                              'subject': 'AWS CloudFormation'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.756996',
+        'entity': 'deployment providers',
+        'sentence': 'The AWS CodePipeline service can also be used for '
+                    'deployment and integrates with a \n'
+                    'number of deployment providers, including AWS '
+                    'CloudFormation, AWS Elastic \n'
+                    'Beanstalk, Amazon ECS, AWS Service Catalog, and also AWS '
+                    'CodeDeploy.',
+        'snippet': 'deployment providers including AWS CloudFormation',
+        'subject': 'AWS CloudFormation',
+        'verb': 'including'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Azure DevOps'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757011',
+        'entity': 'The main integration point',
+        'sentence': 'The main integration point for Azure DevOps with AWS is '
+                    'through Azure DevOps \n'
+                    'pipelines.',
+        'snippet': 'The main integration point for Azure DevOps',
+        'subject': 'Azure DevOps',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'different AWS environments',
+                              'subject': 'Azure DevOps pipeline'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757069',
+        'entity': 'You',
+        'sentence': 'You can configure Azure DevOps pipeline to build, test, '
+                    'package and release \n'
+                    'software to different AWS environments.',
+        'snippet': 'You configure Azure DevOps pipeline',
+        'subject': 'Azure DevOps pipeline',
+        'verb': 'configure'},
+    {   'adjectives': [   {   'adjectives': 'available',
+                              'subject': 'Visual Studio Team Services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757106',
+        'entity': 'Tools',
+        'sentence': 'AWS Tools for Visual Studio Team Services \n'
+                    '\n'
+                    'AWS Tools for Visual Studio Team Services is available on '
+                    'Azure DevOps extension \n'
+                    'market place.',
+        'snippet': 'Tools for Visual Studio Team Services',
+        'subject': 'Visual Studio Team Services',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757131',
+        'entity': 'integrate',
+        'sentence': 'Once installed, you can choose from a set of pipeline '
+                    'tasks that can be included in your \n'
+                    'pipeline to integrate with AWS.',
+        'snippet': 'integrate with AWS',
+        'subject': 'AWS',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': 'Various tasks', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757149',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Figure 4: Various tasks for AWS Tools for Visual Studio '
+                    'Team Services',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757166',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Table 1: Pipeline step descriptions \n'
+                    '\n'
+                    'Step  Description \n'
+                    '\n'
+                    'Executes .NET',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS CLI \n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757203',
+        'entity': 'you',
+        'sentence': 'If you need functionalities beyond those provided through '
+                    'extensions published by \n'
+                    'AWS, or if you need more fine-grained control over your '
+                    'pipeline, you can use AWS CLI \n'
+                    'or AWS Tools for PowerShell to create a custom task or '
+                    'step in Azure DevOps pipeline.',
+        'snippet': 'you use AWS CLI \n',
+        'subject': 'AWS CLI \n',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757245',
+        'entity': 'running',
+        'sentence': 'Application security posture and requirements vary based '
+                    'on the type of application, \n'
+                    'scale of deployment, and choice of environment, but there '
+                    'are common principles and \n'
+                    'practices that serve as solid foundations across all '
+                    'types of applications, and .NET \n'
+                    'applications running on AWS are no exception.',
+        'snippet': 'running on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'secure applications also',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757269',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Running applications in a secure manner starts with '
+                    'developing secure applications, but \n'
+                    'also requires operating them in a secure environment.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'there various AWS services that',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757291',
+        'entity': 'the highest priority',
+        'sentence': 'Security is the highest priority at \n'
+                    'AWS, and there are various AWS services that can help '
+                    'meet the requirements of the \n'
+                    'most security-sensitive organizations.',
+        'snippet': 'the highest priority at AWS',
+        'subject': 'AWS',
+        'verb': 'at'},
+    {   'adjectives': [   {   'adjectives': 'which',
+                              'subject': 'Microsoft Visual Studio'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757315',
+        'entity': 'applications',
+        'sentence': 'When developing applications with Microsoft Visual '
+                    'Studio, we recommend that you use \n'
+                    'the AWS Toolkit for Microsoft Visual Studio, which '
+                    'contains an Account Profile feature \n'
+                    'for storing access keys.',
+        'snippet': 'applications with Microsoft Visual Studio',
+        'subject': 'Microsoft Visual Studio',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Microsoft Visual Studio'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757334',
+        'entity': 'Account Profiles',
+        'sentence': 'For more details on working with Account Profiles in '
+                    'Microsoft Visual Studio, see \n'
+                    'Providing AWS Credentials.',
+        'snippet': 'Account Profiles in Microsoft Visual Studio',
+        'subject': 'Microsoft Visual Studio',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'IAM role-based access'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757361',
+        'entity': 'you',
+        'sentence': 'Although access keys are well-suited for developers, when '
+                    'deploying .NET applications \n'
+                    'to an AWS environment, we recommend that you use IAM '
+                    'role-based access in place of \n'
+                    'access keys.',
+        'snippet': 'you use IAM role-based access',
+        'subject': 'IAM role-based access',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757370',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'securely seamlessly', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757400',
+        'entity': 'running',
+        'sentence': 'Instead, IAM generates temporary keys and \n'
+                    'automatically rotates them on your behalf, allowing your '
+                    'applications running on AWS to \n'
+                    'get authenticated and authorizes to use AWS resources '
+                    'securely and seamlessly.',
+        'snippet': 'running on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'outside such mobile that multiple '
+                                            'roles multiple AWS accounts '
+                                            'better temporary credentials',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757445',
+        'entity': 'running',
+        'sentence': 'Although IAM role-based access works well for .NET '
+                    'applications running in AWS, for \n'
+                    'applications hosted outside of AWS—such as desktop or '
+                    'mobile applications—or for \n'
+                    'applications that execute with multiple roles, or across '
+                    'multiple AWS accounts, it’s \n'
+                    'better to provide an additional level of access control '
+                    'by using temporary credentials.',
+        'snippet': 'running in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS STS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757470',
+        'entity': 'program',
+        'sentence': 'To learn about how to program with AWS STS using .NET, '
+                    'see: Making Requests \n'
+                    'Using IAM User Temporary Credentials - AWS SDK for .NET.',
+        'snippet': 'program with AWS STS',
+        'subject': 'AWS STS',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Microsoft’s directory service'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757495',
+        'entity': 'Active Directory \n\nActive Directory',
+        'sentence': 'Active Directory \n'
+                    '\n'
+                    'Active Directory is Microsoft’s directory service and '
+                    'provides a wide set of capabilities to \n'
+                    'authenticate and authorize users, services and computers '
+                    'in Windows domains.',
+        'snippet': 'Active Directory \n'
+                   '\n'
+                   'Active Directory is Microsoft’s directory service',
+        'subject': 'Microsoft’s directory service',
+        'verb': 'is'},
+    {   'adjectives': [   {   'adjectives': 'more likely whose permissions',
+                              'subject': 'Active Directory'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757530',
+        'entity': 'interact',
+        'sentence': 'Although there are a number of reasons why .NET '
+                    'applications may need to interact \n'
+                    'with Active Directory, the most common use case is that '
+                    '.NET applications running on \n'
+                    'Windows are more likely to be running under a process '
+                    'whose permissions have been \n'
+                    'authorized by Active Directory.',
+        'snippet': 'interact with Active Directory',
+        'subject': 'Active Directory',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Active Directory'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757544',
+        'entity': 'Linux',
+        'sentence': 'Since Linux doesn’t natively use Active Directory,',
+        'snippet': 'Linux use Active Directory',
+        'subject': 'Active Directory',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': 'when', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757564',
+        'entity': 'Active Directory',
+        'sentence': '.NET applications are more likely to \n'
+                    'need Active Directory on AWS when they’re being run on '
+                    'Windows hosts.',
+        'snippet': 'Active Directory on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Linux-based applications'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757578',
+        'entity': 'is',
+        'sentence': 'However, \n'
+                    'Active Directory integration is also possible for '
+                    'Linux-based applications.',
+        'snippet': 'is for Linux-based applications',
+        'subject': 'Linux-based applications',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'which which your on-',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757611',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'cases, you can either use AWS Managed Microsoft AD, which '
+                    'runs an actual Active \n'
+                    'Directory instance on AWS managed infrastructure, or you '
+                    'can use Active Directory \n'
+                    'Connector (AD Connector), a directory gateway which '
+                    'redirects requests to your on-\n'
+                    'premises Active Directory servers.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS \n'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757642',
+        'entity': 'running',
+        'sentence': 'Many businesses also choose to self-manage their \n'
+                    'Active Directory infrastructure to maintain full control '
+                    'over it, while running it on AWS \n'
+                    'and leveraging the flexibility, scalability and '
+                    'efficiency of the AWS Cloud.',
+        'snippet': 'running on AWS \n',
+        'subject': 'AWS \n',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'additional details',
+                              'subject': 'Microsoft Active Directory'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757669',
+        'entity': 'More information',
+        'sentence': 'More information on Microsoft Active Directory on AWS is '
+                    'covered in the Active \n'
+                    'Directory Domain Services on AWS whitepaper, and '
+                    'additional details can be found in \n'
+                    'the Securing the Microsoft Platform on Amazon Web '
+                    'Services whitepaper.',
+        'snippet': 'More information on Microsoft Active Directory',
+        'subject': 'Microsoft Active Directory',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'their own identity store',
+                              'subject': 'Facebook'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757700',
+        'entity': 'an existing identity provider',
+        'sentence': 'Applications can have specific requirements, such as '
+                    'using their own identity store, or \n'
+                    'leveraging an existing identity provider such as '
+                    'Facebook, Google, or Amazon, and \n'
+                    'some need to use a combination of their own identity '
+                    'store with existing identity \n'
+                    'providers.',
+        'snippet': 'an existing identity provider as Facebook',
+        'subject': 'Facebook',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Facebook'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757727',
+        'entity': 'social identity providers',
+        'sentence': 'Amazon Cognito scales to millions of users and \n'
+                    'supports sign-in with social identity providers, '
+                    'including Facebook, Google, and \n'
+                    'Amazon, and enterprise identity providers via SAML 2.0.',
+        'snippet': 'social identity providers including Facebook',
+        'subject': 'Facebook',
+        'verb': 'including'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757740',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nStoring and Retrieving Secrets',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757761',
+        'entity': 'an API call',
+        'sentence': 'When a .NET application needs the secret, it makes an API '
+                    'call to AWS \n'
+                    'Secrets Manager to fetch the secret using the secret '
+                    'name.',
+        'snippet': 'an API call to AWS',
+        'subject': 'AWS',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'IAM policies'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757775',
+        'entity': 'granted',
+        'sentence': 'Access to AWS Secrets Manager APIs is granted through IAM '
+                    'policies.',
+        'snippet': 'granted through IAM policies',
+        'subject': 'IAM policies',
+        'verb': 'through'},
+    {   'adjectives': [   {   'adjectives': 'also that also your AWS account '
+                                            'never',
+                              'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757806',
+        'entity': 'the \nboundaries',
+        'sentence': 'This approach ensures, not only that those secrets do not '
+                    'leave the \n'
+                    'boundaries of AWS services, but also credentials that '
+                    'authorize access to those secrets \n'
+                    'are also confined within your AWS account and never leave '
+                    'it.',
+        'snippet': 'the \nboundaries of AWS services',
+        'subject': 'AWS services',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'easy consumption',
+                              'subject': 'Parameter Store'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757837',
+        'entity': 'refreshes',
+        'sentence': 'For ASP.NET Core applications, there is also a NuGet '
+                    'package available called the \n'
+                    'AWS .NET Configuration Extension for Systems Manager, '
+                    'which automatically loads \n'
+                    'and refreshes secrets from Parameter Store and AWS '
+                    'Secrets Manager into the \n'
+                    'configuration object for easy consumption by application '
+                    'code.',
+        'snippet': 'refreshes from Parameter Store',
+        'subject': 'Parameter Store',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'lower costs',
+                              'subject': 'AWS Secrets Manager local cache '
+                                         'library'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757857',
+        'entity': 'You',
+        'sentence': 'You can also use AWS Secrets Manager local cache library '
+                    'for .NET to improve \n'
+                    'availability, reduce latency and lower costs.',
+        'snippet': 'You use AWS Secrets Manager local cache library',
+        'subject': 'AWS Secrets Manager local cache library',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757866',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Secret Manager'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757888',
+        'entity': 'secrets',
+        'sentence': 'For more information on managing secrets with AWS Secret '
+                    'Manager, see Tutorial: \n'
+                    'Storing and Retrieving a Secret.',
+        'snippet': 'secrets with AWS Secret Manager',
+        'subject': 'AWS Secret Manager',
+        'verb': 'with'},
+    {   'adjectives': [   {   'adjectives': 'generally third-party tools',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757913',
+        'entity': 'work',
+        'sentence': 'While the traditional .NET monitoring approaches and '
+                    'third-party libraries still work in \n'
+                    'AWS, implementing a modern, approach generally requires '
+                    'introducing one or more \n'
+                    'additional AWS services or third-party tools.',
+        'snippet': 'work in AWS',
+        'subject': 'AWS',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'that when specific events',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757944',
+        'entity': 'running',
+        'sentence': 'The cornerstone for monitoring applications running on '
+                    'AWS is Amazon CloudWatch, a \n'
+                    'group of services that can store log files, track '
+                    'metrics, send alarms, and execute \n'
+                    'automated actions when specific events are triggered.',
+        'snippet': 'running on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757972',
+        'entity': 'integrate',
+        'sentence': 'Sending data to CloudWatch from Windows applications can '
+                    'be handled automatically \n'
+                    'using the Amazon CloudWatch agent, which runs as a '
+                    'Windows service, making it easy \n'
+                    'to integrate with CloudWatch from .NET',
+        'snippet': 'integrate with CloudWatch',
+        'subject': 'CloudWatch',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon EC2'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.757987',
+        'entity': 'hosted',
+        'sentence': 'applications hosted on Amazon EC2, Amazon \n'
+                    'ECS, or Amazon EKS.',
+        'snippet': 'hosted on Amazon EC2',
+        'subject': 'Amazon EC2',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'key features', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758001',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'Amazon CloudWatch provides a number of key features.',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS Lambda'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758066',
+        'entity': 'running',
+        'sentence': 'For .NET serverless functions running in AWS Lambda, you '
+                    'can send messages \n'
+                    'to CloudWatch Logs by either writing output to stdout or '
+                    'stderr using the Console \n'
+                    'class, or by using the ILambdaContext object.',
+        'snippet': 'running in AWS Lambda',
+        'subject': 'AWS Lambda',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'CloudWatch Logs'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758105',
+        'entity': 'Common tools',
+        'sentence': 'Common tools used alongside \n'
+                    'or instead of CloudWatch Logs include Amazon '
+                    'Elasticsearch Service, Splunk, or \n'
+                    'Loggly.',
+        'snippet': 'Common tools of CloudWatch Logs',
+        'subject': 'CloudWatch Logs',
+        'verb': 'of'},
+    {   'adjectives': [   {   'adjectives': 'when specific conditions',
+                              'subject': 'AWS resources'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758131',
+        'entity': 'system events',
+        'sentence': 'Amazon CloudWatch Events receives system events from AWS '
+                    'resources, and can be \n'
+                    'used to send notifications or run automated scripts when '
+                    'specific conditions are met.',
+        'snippet': 'system events from AWS resources',
+        'subject': 'AWS resources',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'their application issues',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758154',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'time to resolution (MTTR) for their application issues '
+                    'and improve Service Level \n'
+                    'Agreements (SLAs).',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758178',
+        'entity': 'actions',
+        'sentence': 'These events include \n'
+                    'actions in the AWS Management Console, AWS Command Line '
+                    'Interface, and AWS \n'
+                    'SDKs and APIs, allowing changes to be audited.',
+        'snippet': 'actions in the AWS Management Console',
+        'subject': 'the AWS Management Console',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758187',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon S3'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758210',
+        'entity': 'log files',
+        'sentence': 'You can view and monitor CloudTrail events in the '
+                    'CloudTrail console, and you can \n'
+                    'store log files in Amazon S3 or send them to CloudWatch '
+                    'Logs.',
+        'snippet': 'log files in Amazon S3',
+        'subject': 'Amazon S3',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'when specific API calls',
+                              'subject': 'CloudTrail \nevents'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758237',
+        'entity': 'You',
+        'sentence': 'You can use CloudTrail \n'
+                    'events sent to CloudWatch to trigger alarms based on '
+                    'metrics, and to trigger \n'
+                    'CloudWatch events, allowing automated actions to be '
+                    'executed when specific API calls \n'
+                    'are logged.',
+        'snippet': 'You use CloudTrail \nevents',
+        'subject': 'CloudTrail \nevents',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758263',
+        'entity': 'your application',
+        'sentence': 'AWS X-Ray provides an SDK that allows you to trace '
+                    'incoming requests to your \n'
+                    'application, and trace requests from your application to '
+                    'AWS services, HTTP services, \n'
+                    'and databases.',
+        'snippet': 'your application to AWS services',
+        'subject': 'AWS services',
+        'verb': 'to'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758276',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nFigure 6:',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758305',
+        'entity': 'more detailed tools',
+        'sentence': 'At a glance, it helps locate an API, microservice, or '
+                    'component with problems, allowing \n'
+                    'you to drill down further with more detailed tools, such '
+                    'as Amazon CloudWatch.',
+        'snippet': 'more detailed tools as Amazon CloudWatch',
+        'subject': 'Amazon CloudWatch',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758317',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nAdditional AWS Service Logs',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS services'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758345',
+        'entity': 'the wider environment',
+        'sentence': 'Although application and operating system monitoring can '
+                    'give a focused view on how \n'
+                    'an application is behaving, sometimes it’s necessary to '
+                    'monitor the wider environment \n'
+                    'of AWS services.',
+        'snippet': 'the wider environment of AWS services',
+        'subject': 'AWS services',
+        'verb': 'of'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Amazon CloudWatch'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758369',
+        'entity': 'the logs',
+        'sentence': 'For each \n'
+                    'flow log, you can choose to filter the traffic it records '
+                    'and also choose to store the logs \n'
+                    'in Amazon CloudWatch or Amazon S3.',
+        'snippet': 'the logs in Amazon CloudWatch',
+        'subject': 'Amazon CloudWatch',
+        'verb': 'in'},
+    {   'adjectives': [],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758388',
+        'entity': 'queries',
+        'sentence': 'Query Logging can track queries for \n'
+                    'DNS public hosted zones and can send logs to CloudWatch '
+                    'Logs.',
+        'snippet': 'queries for \nDNS public hosted zones',
+        'subject': '\nDNS public hosted zones',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'ELB Access'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758407',
+        'entity': 'You',
+        'sentence': 'You can use ELB Access \n'
+                    'Logs to monitor HTTP/HTTPS traffic to Application Load '
+                    'Balancers and TCP traffic to \n'
+                    'Network Load Balancers.',
+        'snippet': 'You use ELB Access',
+        'subject': 'ELB Access',
+        'verb': 'use'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758417',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'innovative AWS services',
+                              'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758445',
+        'entity': 'applications',
+        'sentence': 'This paper serves as a starting point for developing and '
+                    'deploying .NET applications on \n'
+                    'AWS; the real value of running .NET applications on AWS '
+                    'is in integrating them with the \n'
+                    'growing platform of innovative AWS services.',
+        'snippet': 'applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'AWS'}],
+        'associationType': 'ORG',
+        'collectedTime': '2019-10-20 20:12:07.758457',
+        'entity': 'Applications',
+        'sentence': 'Applications on AWS \n\nNotes \n\n1',
+        'snippet': 'Applications on AWS',
+        'subject': 'AWS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Elastic Load Balancing'}],
+        'associationType': 'LOC',
+        'collectedTime': '2019-10-20 20:12:07.813699',
+        'entity': 'AWS services',
+        'sentence': 'It has been natively developed in AWS and offers deep '
+                    'integration with AWS services \n'
+                    'such as Elastic Load Balancing, Amazon Virtual Private '
+                    'Cloud (Amazon VPC), IAM, \n'
+                    'AWS Batch, and Amazon CloudWatch.',
+        'snippet': 'AWS services as Elastic Load Balancing',
+        'subject': 'Elastic Load Balancing',
+        'verb': 'as'},
+    {   'adjectives': [{'adjectives': 'first', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.917942',
+        'entity': 'the de facto standard',
+        'sentence': 'Although there are an increasingly diverse set of \n'
+                    'application development technologies, .NET has been the '
+                    'de facto standard for \n'
+                    'Windows since it was first released by Microsoft, and '
+                    'with a growing ecosystem of \n'
+                    'alternative .NET',
+        'snippet': 'the de facto standard for Windows',
+        'subject': 'Windows',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.917993',
+        'entity': 'run',
+        'sentence': 'You can run Mono applications on AWS using Amazon Elastic '
+                    'Compute Cloud \n'
+                    '(Amazon EC2), and containers, and it can run on Windows '
+                    'and the Linux operating \n'
+                    'system.',
+        'snippet': 'run on Windows',
+        'subject': 'Windows',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918028',
+        'entity': 'Unity applications',
+        'sentence': 'Although Unity client applications, by their very nature, '
+                    'run on end-user devices, you \n'
+                    'can run Unity applications on Windows and Linux hosted on '
+                    'EC2.',
+        'snippet': 'Unity applications on Windows',
+        'subject': 'Windows',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918052',
+        'entity': 'runs',
+        'sentence': 'Core is a modern, open-source, cross-platform '
+                    'implementation of .NET, and runs \n'
+                    'on Windows, Linux and macOS.',
+        'snippet': 'runs on Windows',
+        'subject': 'Windows',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Windows or Linux EC2 instances'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918082',
+        'entity': 'direct \ndeployments',
+        'sentence': 'Core applications on AWS as direct \n'
+                    'deployments on Windows or Linux EC2 instances, on Windows '
+                    'or Linux containers \n'
+                    'running on EC2 instances, serverless Linux containers '
+                    'running on AWS Fargate, or \n'
+                    'serverless AWS Lambda functions.',
+        'snippet': 'direct \ndeployments on Windows or Linux EC2 instances',
+        'subject': 'Windows or Linux EC2 instances',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'increasingly common immutable '
+                                            'deployment',
+                              'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918142',
+        'entity': 'the integration',
+        'sentence': 'For legacy .NET applications, virtual machines are often '
+                    'considered the natural choice, \n'
+                    'although the integration of Docker with Windows means the '
+                    'use of containers is \n'
+                    'growing increasingly common, since they bring with them a '
+                    'number of benefits, \n'
+                    'including immutable deployment and improved resource '
+                    'utilization.',
+        'snippet': 'the integration with Windows',
+        'subject': 'Windows',
+        'verb': 'with'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows Server'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918169',
+        'entity': 'all Windows Server versions',
+        'sentence': 'Furthermore, you have access to most popular Linux \n'
+                    'versions and all Windows Server versions from Windows '
+                    'Server 2008 to Windows',
+        'snippet': 'all Windows Server versions from Windows Server',
+        'subject': 'Windows Server',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': '',
+                              'subject': 'Semi-Annual \n'
+                                         'Channel Windows releases'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918194',
+        'entity': 'you',
+        'sentence': 'For modern Windows applications, you can also use '
+                    'Semi-Annual \n'
+                    'Channel Windows releases, including 1709, 1803, 1809 and '
+                    '1903.',
+        'snippet': 'you use Semi-Annual \nChannel Windows releases',
+        'subject': 'Semi-Annual \nChannel Windows releases',
+        'verb': 'use'},
+    {   'adjectives': [   {   'adjectives': 'manual deployments',
+                              'subject': 'Amazon EC2 \ninstances'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918227',
+        'entity': 'your .NET applications',
+        'sentence': 'There are a variety of ways you can deploy your .NET '
+                    'applications on Amazon EC2 \n'
+                    'instances, from manual deployments to using '
+                    'Infrastructure as Code with AWS \n'
+                    'CloudFormation templates and Continuous '
+                    'Integration/Continuous Deployment \n'
+                    'pipelines.',
+        'snippet': 'your .NET applications on Amazon EC2 \ninstances',
+        'subject': 'Amazon EC2 \ninstances',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': 'later', 'subject': 'Windows 2019 \n'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918261',
+        'entity': 'supported',
+        'sentence': 'In contrast, Windows containers are only \n'
+                    'available starting with Kubernetes 1.14, but they are '
+                    'only supported in Windows 2019 \n'
+                    'and later.',
+        'snippet': 'supported in Windows 2019 \n',
+        'subject': 'Windows 2019 \n',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'which that front doors',
+                              'subject': 'Amazon API Gateway'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918293',
+        'entity': 'API instances',
+        'sentence': 'Lambda functions are often deployed behind API instances '
+                    'in Amazon API Gateway, \n'
+                    'which provide managed endpoints that act as front doors '
+                    'for consuming applications to \n'
+                    'access data or backend functionality.',
+        'snippet': 'API instances in Amazon API Gateway',
+        'subject': 'Amazon API Gateway',
+        'verb': 'in'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918310',
+        'entity': 'Visual Studio versions',
+        'sentence': 'The toolkit supports Visual Studio versions 2008 and '
+                    'later for Windows.',
+        'snippet': 'Visual Studio versions for Windows',
+        'subject': 'Windows',
+        'verb': 'for'},
+    {   'adjectives': [{'adjectives': 'also available', 'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918342',
+        'entity': 'the standard \nscripting tool',
+        'sentence': 'AWS Tools for PowerShell \n'
+                    '\n'
+                    'PowerShell is a scripting environment built on .NET, and '
+                    'is widely used as the standard \n'
+                    'scripting tool on Windows, but is also available for '
+                    'MacOS, and Linux.',
+        'snippet': 'the standard \nscripting tool on Windows',
+        'subject': 'Windows',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows domains'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918372',
+        'entity': 'users',
+        'sentence': 'Active Directory \n'
+                    '\n'
+                    'Active Directory is Microsoft’s directory service and '
+                    'provides a wide set of capabilities to \n'
+                    'authenticate and authorize users, services and computers '
+                    'in Windows domains.',
+        'snippet': 'users in Windows domains',
+        'subject': 'Windows domains',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'more likely whose permissions',
+                              'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918417',
+        'entity': 'running',
+        'sentence': 'Although there are a number of reasons why .NET '
+                    'applications may need to interact \n'
+                    'with Active Directory, the most common use case is that '
+                    '.NET applications running on \n'
+                    'Windows are more likely to be running under a process '
+                    'whose permissions have been \n'
+                    'authorized by Active Directory.',
+        'snippet': 'running on Windows',
+        'subject': 'Windows',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'Windows hosts'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918439',
+        'entity': 'run',
+        'sentence': '.NET applications are more likely to \n'
+                    'need Active Directory on AWS when they’re being run on '
+                    'Windows hosts.',
+        'snippet': 'run on Windows hosts',
+        'subject': 'Windows hosts',
+        'verb': 'on'},
+    {   'adjectives': [   {   'adjectives': 'automatically which easy',
+                              'subject': 'Windows applications'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918469',
+        'entity': 'Sending',
+        'sentence': 'Sending data to CloudWatch from Windows applications can '
+                    'be handled automatically \n'
+                    'using the Amazon CloudWatch agent, which runs as a '
+                    'Windows service, making it easy \n'
+                    'to integrate with CloudWatch from .NET',
+        'snippet': 'Sending from Windows applications',
+        'subject': 'Windows applications',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'many .NET logging libraries '
+                                            'directly',
+                              'subject': 'Windows'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918506',
+        'entity': 'sent',
+        'sentence': 'Although Logs can be sent from Windows using the '
+                    'CloudWatch agent, you \n'
+                    'can configure many .NET logging libraries—including '
+                    'log4net, NLog, and Serilog—to \n'
+                    'send log entries to CloudWatch, and call CloudWatch '
+                    'directly using the AWS SDK for \n'
+                    '.NET.',
+        'snippet': 'sent from Windows',
+        'subject': 'Windows',
+        'verb': 'from'},
+    {   'adjectives': [   {   'adjectives': 'additional \nfunctionality',
+                              'subject': 'Amazon RDS'}],
+        'associationType': 'PRODUCT',
+        'collectedTime': '2019-10-20 20:12:07.918542',
+        'entity': 'hosted',
+        'sentence': 'For example, a ASP.NET \n'
+                    'application may be running on a number of load-balanced '
+                    'EC2 instances, with each \n'
+                    'instance depending on a SQL Server database hosted on '
+                    'Amazon RDS, and additional \n'
+                    'functionality being provided by a number of microservices '
+                    'hosted across EC2 instances, \n'
+                    'containers, and AWS Lambda functions.',
+        'snippet': 'hosted on Amazon RDS',
+        'subject': 'Amazon RDS',
+        'verb': 'on'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'MacOS'}],
+        'associationType': 'WORK_OF_ART',
+        'collectedTime': '2019-10-20 20:12:07.972097',
+        'entity': 'available',
+        'sentence': 'AWS Tools for PowerShell \n'
+                    '\n'
+                    'PowerShell is a scripting environment built on .NET, and '
+                    'is widely used as the standard \n'
+                    'scripting tool on Windows, but is also available for '
+                    'MacOS, and Linux.',
+        'snippet': 'available for MacOS',
+        'subject': 'MacOS',
+        'verb': 'for'},
+    {   'adjectives': [   {   'adjectives': 'your application server',
+                              'subject': 'HTTP 500 errors'}],
+        'associationType': 'LAW',
+        'collectedTime': '2019-10-20 20:12:08.029627',
+        'entity': 'leading',
+        'sentence': 'application backed by a SQL Server \n'
+                    'database, and your database starts malfunctioning due to '
+                    'high memory pressure, \n'
+                    'leading to HTTP 500 errors in your application server.',
+        'snippet': 'leading to HTTP 500 errors',
+        'subject': 'HTTP 500 errors',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 20:12:08.090069',
+        'entity': 'Semi-Annual \nChannel Windows releases',
+        'sentence': 'For modern Windows applications, you can also use '
+                    'Semi-Annual \n'
+                    'Channel Windows releases, including 1709, 1803, 1809 and '
+                    '1903.',
+        'snippet': 'Semi-Annual \nChannel Windows releases including 1709',
+        'subject': '1709',
+        'verb': 'including'},
+    {   'adjectives': [{'adjectives': 'mostly manual', 'subject': 'months'}],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 20:12:08.090115',
+        'entity': 'projects',
+        'sentence': 'In the traditional delivery approach, when projects took '
+                    'months to deliver a functioning \n'
+                    'application, these activities were mostly manual.',
+        'snippet': 'projects took months',
+        'subject': 'months',
+        'verb': 'took'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'week'}],
+        'associationType': 'DATE',
+        'collectedTime': '2019-10-20 20:12:08.090154',
+        'entity': 'multiple versions',
+        'sentence': 'However, as the frequency of software \n'
+                    'delivery grows to multiple versions per week or per day, '
+                    'these undifferentiated activities \n'
+                    'become delivery bottlenecks.',
+        'snippet': 'multiple versions per week',
+        'subject': 'week',
+        'verb': 'per'},
+    {   'adjectives': [{'adjectives': '', 'subject': 'minutes'}],
+        'associationType': 'TIME',
+        'collectedTime': '2019-10-20 20:12:08.152940',
+        'entity': 'ready',
+        'sentence': 'Applications on AWS \n'
+                    '\n'
+                    'application will be ready within minutes to use without '
+                    'any infrastructure or resource \n'
+                    'configuration work.',
+        'snippet': 'ready within minutes',
+        'subject': 'minutes',
+        'verb': 'within'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.387879',
+        'entity': 'Framework server applications',
+        'sentence': 'Framework server applications in two ways: \n\n1.',
+        'snippet': 'Framework server applications in two ways',
+        'subject': 'two ways',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'even thousands increasingly '
+                                            'impractical',
+                              'subject': 'dozens, hundreds'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.387943',
+        'entity': 'run',
+        'sentence': 'However, if the command must run on dozens, hundreds, or '
+                    'even thousands \n'
+                    'of servers, this approach becomes increasingly '
+                    'impractical.',
+        'snippet': 'run on dozens, hundreds',
+        'subject': 'dozens, hundreds',
+        'verb': 'on'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.387989',
+        'entity': 'applications',
+        'sentence': 'It also \n'
+                    'greatly simplifies migrating applications from one host '
+                    'to another.',
+        'snippet': 'applications from one host',
+        'subject': 'one host',
+        'verb': 'from'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388014',
+        'entity': 'you',
+        'sentence': 'To use Amazon ECS, you can either use one of the prebuilt',
+        'snippet': 'you use one',
+        'subject': 'one',
+        'verb': 'use'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388056',
+        'entity': 'You',
+        'sentence': 'You can instantiate one or multiple stacks based on each '
+                    'CloudFormation template, as \n'
+                    'well as delete already deployed stacks and all resources '
+                    'associated with them.',
+        'snippet': 'You instantiate one or multiple stacks',
+        'subject': 'one or multiple stacks',
+        'verb': 'instantiate'},
+    {   'adjectives': [   {   'adjectives': 'which its own complications',
+                              'subject': 'hundreds or thousands'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388103',
+        'entity': 'grow',
+        'sentence': 'For infrastructure requiring a high number of '
+                    'inter-related services, or that is best \n'
+                    'defined using iteration, the resulting CloudFormation '
+                    'template can easily grow to \n'
+                    'hundreds or thousands of lines, which raises its own '
+                    'complications.',
+        'snippet': 'grow to hundreds or thousands',
+        'subject': 'hundreds or thousands',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388142',
+        'entity': 'Developers',
+        'sentence': 'Developers use one of the supported languages to write '
+                    'code that defines \n'
+                    'reusable cloud components known as Constructs, which can '
+                    'then be composed into \n'
+                    'Stacks and Apps.',
+        'snippet': 'Developers use one',
+        'subject': 'one',
+        'verb': 'use'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388170',
+        'entity': 'store',
+        'sentence': 'Using AWS CodeCommit, you can store all \n'
+                    'of these in one repository and avoid such problems.',
+        'snippet': 'store in one repository',
+        'subject': 'one repository',
+        'verb': 'in'},
+    {   'adjectives': [   {   'adjectives': 'critical such \napplications',
+                              'subject': 'millions'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388200',
+        'entity': 'User Identity Management \n'
+                  '\n'
+                  'Successful web or mobile applications',
+        'sentence': 'User Identity Management \n'
+                    '\n'
+                    'Successful web or mobile applications can reach millions '
+                    'of users, and it’s critical such \n'
+                    'applications have a robust and scalable approach for user '
+                    'and identity management.',
+        'snippet': 'User Identity Management \n'
+                   '\n'
+                   'Successful web or mobile applications reach millions',
+        'subject': 'millions',
+        'verb': 'reach'},
+    {   'adjectives': [   {   'adjectives': 'social identity providers',
+                              'subject': 'millions'}],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388236',
+        'entity': 'scales',
+        'sentence': 'Amazon Cognito scales to millions of users and \n'
+                    'supports sign-in with social identity providers, '
+                    'including Facebook, Google, and \n'
+                    'Amazon, and enterprise identity providers via SAML 2.0.',
+        'snippet': 'scales to millions',
+        'subject': 'millions',
+        'verb': 'to'},
+    {   'adjectives': [],
+        'associationType': 'CARDINAL',
+        'collectedTime': '2019-10-20 20:12:08.388275',
+        'entity': 'CloudWatch Alarms',
+        'sentence': 'CloudWatch Alarms can monitor one or more metrics, and '
+                    'can \n'
+                    'trigger a variety of actions, including automatic '
+                    'scaling, or sending a notification to an \n'
+                    'Amazon Simple Notification Service (Amazon SNS) topic.',
+        'snippet': 'CloudWatch Alarms monitor one or more metrics',
+        'subject': 'one or more metrics',
+        'verb': 'monitor'}]
