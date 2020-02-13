@@ -61,7 +61,7 @@ def load_data_into_grakn(services,linkages,session):
             details_json = {}
             details_json["service1"] = linkage["service1"].strip().replace("'","")
             details_json["service2"] = linkage["service2"].strip().replace("'","")
-            details_json["sentences"] = linkage["sentences"]
+            details_json["sentence"] = linkage["sentence"]
             details_string = json.dumps(details_json)
 
             linkage_rel["details"] =  details_string

@@ -1,6 +1,6 @@
 #grakn
 db
-
+webdriver
 #everything else
 *.xml
 .idea/
