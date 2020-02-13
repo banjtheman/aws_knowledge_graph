@@ -11,7 +11,6 @@ import glob
 from grakn.client import GraknClient
 
 
-import matplotlib.pyplot as plt
 import time
 
 def update_knowledge_graph(services,linkages):
@@ -19,10 +18,17 @@ def update_knowledge_graph(services,linkages):
         with client.session(keyspace = "aws") as session:
             load_data_into_grakn(services,linkages, session)
 
+
+
+
 def add_service(service):
-    graql_insert_query =  'insert $c isa Service, has name "' + service["name"] + '"'
-    graql_insert_query += ', has desc ' + str(service["desc"]) + ''
-    graql_insert_query += ', has url "' + service["url"] + '"'
+    print(str(service))
+    url_string = service["url"].replace("https://","https_").replace("/","_").replace(".","_dot_")
+
+    graql_insert_query =  'insert $c isa Service, has name "' + str(service["name"]) + '"'
+    graql_insert_query += ', has service_desc "' + str(service["desc"]) + '"'
+    graql_insert_query += ', has url "' + str(url_string) + '"'
+    graql_insert_query += ', has service_type "' + str(service["service_type"]) + '"'
     graql_insert_query += ";"
     return graql_insert_query
 
@@ -33,20 +39,20 @@ def linked(linked_rel):
     # match reacte
     graql_insert_query += ' $linker isa Service, has name "' + linked_rel["service2"] + '";'
     # insert reaction
-    graql_insert_query += (" insert $linkage(linked: $linked, linker: $linker) isa linkage; " + "$contains has details " + str(linked_rel["details"]) +"'; ")
+    graql_insert_query += (" insert $linkage(linked: $linked, linker: $linker) isa Linkage; " + "$linkage has details '" + str(linked_rel["details"]) +"'; ")
     return graql_insert_query
 
 def load_data_into_grakn(services,linkages,session):
 
     for service in services:
 
-        service_json = {}
-        service_json["name"] = service["name"].strip().replace("'","")
-        #hard code for now...
-        service_json["desc"] = service["desc"]
-        service_json["url"] = service["url"]
+        # service_json = {}
+        # service_json["name"] = service["name"].strip().replace("'","")
+        # #hard code for now...
+        # service_json["desc"] = service["desc"]
+        # service_json["url"] = service["url"]
         with session.transaction().write() as transaction:
-            graql_insert_query = add_service(service_json)
+            graql_insert_query = add_service(service)
             print("Executing Graql Query: " + graql_insert_query)
             transaction.query(graql_insert_query)
             transaction.commit()
@@ -66,9 +72,22 @@ def load_data_into_grakn(services,linkages,session):
 
             linkage_rel["details"] =  details_string
             with session.transaction().write() as transaction:
-                graql_insert_query = contains(linkage_rel)
+                graql_insert_query = linked(linkage_rel)
                 print("Executing Graql Query: " + graql_insert_query)
                 transaction.query(graql_insert_query)
                 transaction.commit()
 
     print("Done and Done")
+
+
+
+services = []
+linkages = []
+with open('json_output/services.json') as json_file:
+    services = json.load(json_file)
+
+
+with open('json_output/final.json') as json_file:
+    linkages = json.load(json_file)    
+
+update_knowledge_graph(services,linkages)
