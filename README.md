@@ -1,4 +1,4 @@
-#AWS Knowledge graph
-This repo contains cdoe to build an AWS knowledge graph
+# AWS Knowledge graph
+This repo contains code to build an AWS knowledge graph, and generate quizes
 
 

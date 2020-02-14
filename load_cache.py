@@ -112,7 +112,7 @@ def get_contains_map(session):
             id_counter += 1
             nodes.append(tmp_node)
         else:
-            #ingd already in map
+            #already in map
             tmp_target = nodes_map[key_nodes[1]]
 
 

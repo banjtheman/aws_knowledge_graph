@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+</style>
+<svg width="2500" height="2500"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+graph = {"nodes": [{"id": 1, "name": "AWS WAF", "color": "orange", "weight": 10, "font_size": 10}, {"id": 2, "name": "AWS Shield", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 3, "name": "AWS IoT Core", "color": "orange", "weight": 10, "font_size": 10}, {"id": 4, "name": "AWS Lambda", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 5, "name": "AWS IoT Device Defender", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 6, "name": "Amazon SageMaker", "color": "orange", "weight": 10, "font_size": 10}, {"id": 7, "name": "Amazon EC2", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 8, "name": "AWS Database Migration Service", "color": "orange", "weight": 10, "font_size": 10}, {"id": 9, "name": "AWS Server Migration Service", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 10, "name": "Amazon Redshift", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 11, "name": "AWS Data Pipeline", "color": "orange", "weight": 10, "font_size": 10}, {"id": 12, "name": "Amazon EMR", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 13, "name": "Amazon Simple Queue Service (SQS)", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 14, "name": "AWS IoT Analytics", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 15, "name": "Amazon QuickSight", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 16, "name": "Amazon Elastic Inference", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 17, "name": "Amazon ElastiCache", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 18, "name": "Amazon RDS", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 19, "name": "Amazon DynamoDB", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 20, "name": "Amazon Aurora", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 21, "name": "AWS Systems Manager", "color": "orange", "weight": 10, "font_size": 10}, {"id": 22, "name": "AWS Organizations", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 23, "name": "Amazon CloudWatch", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 24, "name": "Amazon Kinesis", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 25, "name": "AWS Outposts", "color": "orange", "weight": 10, "font_size": 10}, {"id": 26, "name": "VMware Cloud on AWS", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 27, "name": "AWS CloudTrail", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 28, "name": "Amazon Athena", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 29, "name": "Elastic Load Balancing", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 30, "name": "AWS Management Console", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 31, "name": "Amazon EC2 Auto Scaling", "color": "orange", "weight": 10, "font_size": 10}, {"id": 32, "name": "AWS IoT Events", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 33, "name": "AWS Transit Gateway", "color": "orange", "weight": 10, "font_size": 10}, {"id": 34, "name": "Amazon VPC", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 35, "name": "Amazon CloudFront", "color": "orange", "weight": 10, "font_size": 10}, {"id": 36, "name": "Amazon FreeRTOS", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 37, "name": "AWS Auto Scaling", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 38, "name": "AWS Config", "weight": 10, "font_size": 10, "color": "orange"}, {"id": 39, "name": "Amazon Route 53", "weight": 10, "font_size": 10, "color": "orange"}], "links": [{"source": 1, "target": 2, "sentence": "In addition to the network and transport layer protections that come with Standard, AWS Shield Advanced provides additional detection and mitigation against large and sophisticated DDoS attacks, near real-time visibility into attacks, and integration with AWS WAF, a web application firewall."}, {"source": 3, "target": 4, "sentence": "This simple Wi-Fi device is easy to con\ufb01gure, and it\u2019s designed for developers to get started with AWS IoT Core, AWS Lambda, Amazon DynamoDB, Amazon SNS, and many other Amazon Web Services without writing device-speci\ufb01c code."}, {"source": 3, "target": 5, "sentence": "AWS IoT Device Defender sends an alert if there are any gaps in your IoT configuration that might create a security risk, such as identity certificates being shared across multiple devices or a device with a revoked identity certificate trying to connect to AWS IoT Core."}, {"source": 6, "target": 7, "sentence": "AWS Inferentia will be available for use with Amazon SageMaker, Amazon EC2, and Amazon Elastic"}, {"source": 8, "target": 9, "sentence": "For example, you might use AWS Database Migration Service, AWS Server Migration Service, and partner migration tools such as ATADATA ATAmotion, CloudEndure Live Migration, or RiverMeadow Server Migration"}, {"source": 7, "target": 10, "sentence": "RI alerts support Amazon EC2, Amazon RDS, Amazon Redshift, and Amazon ElastiCache reservations."}, {"source": 11, "target": 12, "sentence": "With AWS Data Pipeline, you can regularly access your data where it\u2019s stored, transform and process it at scale, and e\ufb03ciently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR."}, {"source": 4, "target": 13, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 3, "target": 14, "sentence": "AWS IoT Events continuously monitors data from multiple IoT sensors and applications, and it integrates with other services, such as AWS IoT Core and AWS IoT Analytics, to enable early detection and unique insights into events."}, {"source": 12, "target": 15, "sentence": "Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift, Amazon Athena, Amazon SageMaker, and Amazon QuickSight."}, {"source": 7, "target": 16, "sentence": "Amazon Elastic Inference Amazon Elastic Inference allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and Amazon SageMaker instances to reduce the cost of running deep learning inference by up to 75%."}, {"source": 7, "target": 6, "sentence": "Using Amazon Elastic Inference, developers can reduce inference costs by up to 75% by attaching GPU-powered inference acceleration to Amazon EC2 and Amazon SageMaker instances."}, {"source": 7, "target": 17, "sentence": "RI alerts support Amazon EC2, Amazon RDS, Amazon Redshift, and Amazon ElastiCache reservations."}, {"source": 2, "target": 7, "sentence": "CloudFront works seamlessly with services including AWS Shield for DDoS mitigation, Amazon S3, Elastic Load Balancing or Amazon EC2 as origins for your applications, and Lambda@Edge to run custom code closer to customers\u2019 users and to customize the user experience."}, {"source": 11, "target": 18, "sentence": "With AWS Data Pipeline, you can regularly access your data where it\u2019s stored, transform and process it at scale, and e\ufb03ciently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR."}, {"source": 4, "target": 19, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 4, "target": 10, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 4, "target": 6, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 7, "target": 16, "sentence": "Using Amazon Elastic Inference, developers can reduce inference costs by up to 75% by attaching GPU-powered inference acceleration to Amazon EC2 and Amazon SageMaker instances."}, {"source": 4, "target": 18, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 10, "target": 20, "sentence": "It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE, and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse."}, {"source": 21, "target": 22, "sentence": "Through seamless integration with AWS Systems Manager and AWS Organizations, administrators can manage licenses across all the AWS accounts in an organization and on-premises environments."}, {"source": 4, "target": 23, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 4, "target": 24, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 18, "target": 20, "sentence": "Secrets Manager offers secret rotation with built-in integration for Amazon RDS for MySQL, PostgreSQL, and Amazon Aurora."}, {"source": 25, "target": 26, "sentence": "AWS Outposts come in two variants: 1) VMware Cloud on AWS Outposts allows you to use the same VMware control plane and APIs you use to run your infrastructure, 2)"}, {"source": 7, "target": 6, "sentence": "Amazon Elastic Inference Amazon Elastic Inference allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and Amazon SageMaker instances to reduce the cost of running deep learning inference by up to 75%."}, {"source": 12, "target": 10, "sentence": "Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift, Amazon Athena, Amazon SageMaker, and Amazon QuickSight."}, {"source": 12, "target": 6, "sentence": "Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift, Amazon Athena, Amazon SageMaker, and Amazon QuickSight."}, {"source": 18, "target": 8, "sentence": "You can use the AWS Database Migration Service to easily migrate or replicate your existing databases to Amazon RDS."}, {"source": 4, "target": 27, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 4, "target": 19, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 12, "target": 28, "sentence": "Your users then leverage these data sets with their choice of analytics and machine learning services, like Amazon EMR for Apache Spark, Amazon Redshift, Amazon Athena, Amazon SageMaker, and Amazon QuickSight."}, {"source": 2, "target": 29, "sentence": "CloudFront works seamlessly with services including AWS Shield for DDoS mitigation, Amazon S3, Elastic Load Balancing or Amazon EC2 as origins for your applications, and Lambda@Edge to run custom code closer to customers\u2019 users and to customize the user experience."}, {"source": 4, "target": 3, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 20, "target": 10, "sentence": "It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE, and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse."}, {"source": 7, "target": 4, "sentence": "With a few clicks in the AWS Management Console, you can create an API that acts as a \u201cfront door\u201d for applications to access data, business logic, or functionality from your back-end services, such as workloads running on Amazon EC2, code running on AWS Lambda, or any web application."}, {"source": 4, "target": 29, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 7, "target": 30, "sentence": "With a few clicks in the AWS Management Console, you can create an API that acts as a \u201cfront door\u201d for applications to access data, business logic, or functionality from your back-end services, such as workloads running on Amazon EC2, code running on AWS Lambda, or any web application."}, {"source": 31, "target": 7, "sentence": "You can also use the dynamic and predictive scaling features of Amazon EC2 Auto Scaling to add or remove EC2 instances."}, {"source": 4, "target": 24, "sentence": "This allows organizations to easily and rapidly add new innovations to their enterprise applications by natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon Kinesis and Amazon Redshift, among many others."}, {"source": 3, "target": 19, "sentence": "This simple Wi-Fi device is easy to con\ufb01gure, and it\u2019s designed for developers to get started with AWS IoT Core, AWS Lambda, Amazon DynamoDB, Amazon SNS, and many other Amazon Web Services without writing device-speci\ufb01c code."}, {"source": 3, "target": 32, "sentence": "AWS IoT Events continuously monitors data from multiple IoT sensors and applications, and it integrates with other services, such as AWS IoT Core and AWS IoT Analytics, to enable early detection and unique insights into events."}, {"source": 33, "target": 34, "sentence": "With AWS Transit Gateway, you only have to create and manage a single connection from the central gateway in to each Amazon VPC, on-premises data center, or remote office across your network."}, {"source": 35, "target": 2, "sentence": "When you use AWS Shield Standard with Amazon CloudFront and Amazon Route 53, you receive comprehensive availability protection against all known infrastructure (Layer 3 and 4) attacks."}, {"source": 7, "target": 18, "sentence": "RI alerts support Amazon EC2, Amazon RDS, Amazon Redshift, and Amazon ElastiCache reservations."}, {"source": 4, "target": 15, "sentence": "AWS IoT Core makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon SageMaker, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon QuickSight to build Internet of Things (IoT) applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure."}, {"source": 11, "target": 19, "sentence": "With AWS Data Pipeline, you can regularly access your data where it\u2019s stored, transform and process it at scale, and e\ufb03ciently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR."}, {"source": 5, "target": 36, "sentence": "AWS IoT Greengrass and Amazon FreeRTOS automatically integrate with AWS IoT Device Defender to provide security metrics from the devices for evaluation."}, {"source": 31, "target": 7, "sentence": "If you\u2019re already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services."}, {"source": 31, "target": 37, "sentence": "If you\u2019re already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services."}, {"source": 27, "target": 38, "sentence": "With Systems Manager you can view API call logs from AWS CloudTrail, resource configuration changes from AWS Config, software inventory, and patch compliance status by resource group."}, {"source": 35, "target": 39, "sentence": "When you use AWS Shield Standard with Amazon CloudFront and Amazon Route 53, you receive comprehensive availability protection against all known infrastructure (Layer 3 and 4) attacks."}]}
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().distance(function(d) { return 500 } ).strength(2).id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody().strength(5))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+
+
+  var link = svg.append("g")
+      .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+      
+
+  var node = svg.append("g")
+      .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+      .attr("r", function(d) { return d.weight*5 })
+      .attr("fill", function(d) { return color(d.color); })
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
+
+  var lables = node.append("text")
+      .text(function(d) {
+        return d.name;
+      })
+    .style("text-anchor", "middle")
+    .style("fill", "#000")
+    .style("font-family", "Arial")
+    .style("font-size", function (d) { return d.font_size*2; });
+
+  node.append("title")
+      .text(function(d) { return d.name; });
+
+   link.append("text")
+      .text(function(d) { return d.sentence; });  
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+  }
+
+
+function dragstarted(d) {
+  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x;
+  d.fy = d.y;
+}
+
+function dragged(d) {
+  d.fx = d3.event.x;
+  d.fy = d3.event.y;
+}
+
+function dragended(d) {
+  if (!d3.event.active) simulation.alphaTarget(0);
+  d.fx = null;
+  d.fy = null;
+}
+
+</script>
