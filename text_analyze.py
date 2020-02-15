@@ -2,12 +2,13 @@
 import spacy
 from spacy import displacy
 from collections import Counter
-import en_core_web_sm
+#import en_core_web_sm
+#import en_core_web_lg
 import json
 from datetime import datetime
-import pprint
+# import pprint
 
-pp = pprint.PrettyPrinter(indent=4)
+# pp = pprint.PrettyPrinter(indent=4)
 
 
 entity_types = ["MONEY","PERSON","EVENTS","FAC","NORP","GPE","ORG","LOC","PRODUCT", "WORK_OF_ART", "LAW", "DATE",
@@ -87,39 +88,43 @@ def get_adjectives(sent,subj):
         noun_adj_pairs.append(na_json) 
     return noun_adj_pairs
 
-nlp = en_core_web_sm.load()
 
 
-page = open('aws-overview.txt', 'r').read()
+def analyze_whitepaper(whitepaper,nlp):
+    
 
-#nlp work here
-doc_nlp = nlp(page)
 
-wiki_relations =""
-wiki_relations_object = {}
-wiki_relations_array = []
+    page = open(whitepaper, 'r').read()
 
-for ent in entity_types:
-    relations = extract_entity_relations(doc_nlp,ent)
+    #nlp work here
+    doc_nlp = nlp(page)
 
-    for r1,verb, r2, sent, adjectives in relations:
-        wiki_relations_json = {}
-        snippet =  str(r1.text) +" "+str(verb)+" "+ str(r2.text)
-        wiki_relations_json["associationType"] = str(r2.ent_type_)
-        wiki_relations_json["verb"] = massage_str(str(verb))
-        wiki_relations_json["subject"] = massage_str(str(r2.text))
-        wiki_relations_json["entity"] = massage_str(str(r1.text))
-        wiki_relations_json["sentence"] = massage_str(str(sent))
-        wiki_relations_json["snippet"] = massage_str(snippet)
-        wiki_relations_json["adjectives"] = adjectives
-        wiki_relations_json["collectedTime"] = str(datetime.now())
-        wiki_relations_array.append(wiki_relations_json)
+    wiki_relations =""
+    wiki_relations_object = {}
+    wiki_relations_array = []
 
-    #print('Wikipedia Entity mapping for ' + name + " created")     
-    file = open('aws-overview.json', "w")
-    file.write(json.dumps(wiki_relations_array))
-    file.close()
+    for ent in entity_types:
+        relations = extract_entity_relations(doc_nlp,ent)
 
-print('Done and done')
+        for r1,verb, r2, sent, adjectives in relations:
+            wiki_relations_json = {}
+            snippet =  str(r1.text) +" "+str(verb)+" "+ str(r2.text)
+            wiki_relations_json["associationType"] = str(r2.ent_type_)
+            wiki_relations_json["verb"] = massage_str(str(verb))
+            wiki_relations_json["subject"] = massage_str(str(r2.text))
+            wiki_relations_json["entity"] = massage_str(str(r1.text))
+            wiki_relations_json["sentence"] = massage_str(str(sent))
+            wiki_relations_json["snippet"] = massage_str(snippet)
+            wiki_relations_json["adjectives"] = adjectives
+            wiki_relations_json["collectedTime"] = str(datetime.now())
+            wiki_relations_array.append(wiki_relations_json)
 
-pp.pprint(wiki_relations_array)
+        #file = open('aws-overview.json', "w")
+        #file.write(json.dumps(wiki_relations_array))
+        #file.close()
+
+    #print('Done and done')
+    #pp.pprint(wiki_relations_array)
+    return wiki_relations_array
+
+    

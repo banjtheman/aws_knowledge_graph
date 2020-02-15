@@ -1,0 +1,70 @@
+
+
+Notes
+
+match
+  $common-service isa Service, has name $name;
+  $service-a isa Service, has name "AWS EMR";
+  $service-b isa Service, has name "AWS Lambda";
+  (linker: $service-a, linked: $common-service) isa Linkage;
+  (linker: $service-b, linked: $common-service) isa Linkage;
+get $name; offset 0; limit 30;
+
+
+
+match
+  $common-service isa Service, has name $name;
+  $service-a isa Service, has name "AWS Lambda";
+  (linker: $service-a, linked: $common-service) isa Linkage;
+get $name; offset 0; limit 30;
+
+
+
+match
+  $common-service isa Service, has name $name;
+  $service-a isa Service, has name "AWS Lambda";
+  (linked: $service-a, linker: $common-service) isa Linkage;
+get $name; offset 0; limit 200;
+
+
+
+docker exec -ti grakn bash -c '/grakn-core-all-linux/grakn console -k aws'
+match $p isa Service; delete $p;
+commit
+
+
+docker rm $(docker ps -qa --no-trunc --filter "status=exited")
+docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+
+
+0. Get whitepaper metadata
+
+steps for dl white paper
+
+
+1. open whitepaper metadata file 
+2. for each item in array
+3. dl paper
+4. conver to txt
+5. run text_anayzle
+6. make paper_json
+metadata []
+sentences
+
+repeat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -42,14 +42,8 @@ aws_keyword_map["AWS Certificate Manager"] = "AWS Certificate Manager"
 services_array = []
 aws_overview = []
 
-with open('services.json') as json_file:
+with open('json_output/services.json') as json_file:
     services_array = json.load(json_file)
-
-
-#will soon go over all white papers at some point
-with open('json_output/aws-overview.json') as json_file:
-    aws_overview = json.load(json_file)
-
 
 def fill_in_map():
     #add fields to keyword map
@@ -57,19 +51,22 @@ def fill_in_map():
         service_name = service["name"]
         aws_keyword_map[service_name] = service_name
 
+def extract_json(whitepaper_json):
 
-
-
-def extract_json():
-
-    print("Creating keyword map")
+    #print("Creating keyword map")
     fill_in_map()
 
     extracted_json = []
 
     #iterate over the sentences
+    whitepaper_sentences = whitepaper_json["sentences"]
+    whitepaper_url = whitepaper_json["metadata"]["url"]
+    whitepaper_name = whitepaper_json["metadata"]["name"]
+    whitepaper_desc = whitepaper_json["metadata"]["desc"]
+    whitepaper_topic = whitepaper_json["metadata"]["topic"]
+    whitepaper_date = whitepaper_json["metadata"]["date"]
 
-    for obj in aws_overview:
+    for obj in whitepaper_sentences:
 
         subject = obj["subject"]
         entity = obj["entity"]
@@ -89,7 +86,7 @@ def extract_json():
                         temp_obj.append(service)
             
             temp_obj = set(temp_obj)
-            print(subject+"-"+str(temp_obj))
+            #print(subject+"-"+str(temp_obj))
 
             for link in temp_obj:
                 #create a linkage
@@ -97,6 +94,12 @@ def extract_json():
                 link_obj["service1"] = subject
                 link_obj["service2"] = link
                 link_obj["sentence"] = sentence
+                #whitepaper metadata
+                link_obj["whitepaper_url"] = whitepaper_url
+                link_obj["whitepaper_name"] = whitepaper_name
+                link_obj["whitepaper_desc"] = whitepaper_desc
+                link_obj["whitepaper_topic"] = whitepaper_topic
+                link_obj["whitepaper_date"] = whitepaper_date
                 extracted_json.append(link_obj)
 
     return extracted_json
@@ -104,15 +107,18 @@ def extract_json():
 
 
 
+def transform_to_kg(whitepaper_loc):
+    #will soon go over all white papers at some point
+    whitepaper_json = []
+    with open(whitepaper_loc) as json_file:
+        whitepaper_json = json.load(json_file)
+
+    final_json = extract_json(whitepaper_json)
+
+    return final_json
 
 
 
-
-final_json = extract_json()
-
-
-with open('final.json', 'w') as outfile:
-    json.dump(final_json, outfile)
     
 
 

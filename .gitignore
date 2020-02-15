@@ -1,3 +1,9 @@
+#whitepaper dirs
+whitepapers/
+whitepapers_json/
+whitepapers_txt/
+whitepapers_final/
+whitepapers_kg/
 #grakn
 db
 webdriver
